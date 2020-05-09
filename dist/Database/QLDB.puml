@@ -11,5 +11,6 @@ nUh9-Z5kkRKs-ElhbyYR--TR-_SRvuStpYzld9_UDh-zRNxypVdFVru
 AWSEntityColoring(QLDB)
 !define QLDB(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, QLDB, QLDB)
 !define QLDB(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, QLDB, QLDB)
+!define QLDB(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, QLDB*e_scale, QLDB)
 !define QLDBParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, QLDB, QLDB)
 !define QLDBParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, QLDB, QLDB)

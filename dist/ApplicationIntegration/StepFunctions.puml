@@ -9,5 +9,6 @@ pc-uv-xFzz__xFkLVJ-pxtVc_yZ_N_d_C_z_Vt_zaQ-VylLRldxCrw_Vx-Rc7W
 AWSEntityColoring(StepFunctions)
 !define StepFunctions(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, StepFunctions, StepFunctions)
 !define StepFunctions(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, StepFunctions, StepFunctions)
+!define StepFunctions(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, StepFunctions*e_scale, StepFunctions)
 !define StepFunctionsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, StepFunctions, StepFunctions)
 !define StepFunctionsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, StepFunctions, StepFunctions)

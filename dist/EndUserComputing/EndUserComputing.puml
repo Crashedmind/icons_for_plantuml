@@ -9,5 +9,6 @@ xyTyD_x8PJu8v-bKsNuD5hEO-yWU-XJut6FMJNzp3ZH6xR7FwBEelF_Eu-_sad4eMzqhQ0Gg-sWsQhvT
 AWSEntityColoring(EndUserComputing)
 !define EndUserComputing(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, EndUserComputing, EndUserComputing)
 !define EndUserComputing(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, EndUserComputing, EndUserComputing)
+!define EndUserComputing(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, EndUserComputing*e_scale, EndUserComputing)
 !define EndUserComputingParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, EndUserComputing, EndUserComputing)
 !define EndUserComputingParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, EndUserComputing, EndUserComputing)

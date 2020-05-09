@@ -10,5 +10,6 @@ sZp-vGdECTzVZydZd_9buw530Ay9ds5cuqqIEVmd7t_4PZRc3XRQFtuSnsyLi0bxFjsNxRkFkKV7Uzxg
 AWSEntityColoring(CostManagement)
 !define CostManagement(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, CostManagement, CostManagement)
 !define CostManagement(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, CostManagement, CostManagement)
+!define CostManagement(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, CostManagement*e_scale, CostManagement)
 !define CostManagementParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, CostManagement, CostManagement)
 !define CostManagementParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, CostManagement, CostManagement)

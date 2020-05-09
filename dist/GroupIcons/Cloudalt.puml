@@ -12,5 +12,6 @@ of1V-biJNe9rY1Bse_sILGlYsc-6U0WtbLlHAN_3fNFllRqXdFmJSUB4YKy
 AWSEntityColoring(Cloudalt)
 !define Cloudalt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Cloudalt, Cloudalt)
 !define Cloudalt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloudalt, Cloudalt)
+!define Cloudalt(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloudalt*e_scale, Cloudalt)
 !define CloudaltParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Cloudalt, Cloudalt)
 !define CloudaltParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloudalt, Cloudalt)

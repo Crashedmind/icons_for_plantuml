@@ -10,5 +10,6 @@ _SCf_GjvIl-INZOLlqV_bltZo-gZZxu
 AWSEntityColoring(ElementalMediaConvert)
 !define ElementalMediaConvert(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ElementalMediaConvert, ElementalMediaConvert)
 !define ElementalMediaConvert(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ElementalMediaConvert, ElementalMediaConvert)
+!define ElementalMediaConvert(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ElementalMediaConvert*e_scale, ElementalMediaConvert)
 !define ElementalMediaConvertParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ElementalMediaConvert, ElementalMediaConvert)
 !define ElementalMediaConvertParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ElementalMediaConvert, ElementalMediaConvert)

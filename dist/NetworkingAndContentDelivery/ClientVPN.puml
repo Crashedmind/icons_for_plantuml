@@ -10,5 +10,6 @@ ZQ3eU-1tX3ZZ1sdY3uc5nN0wl7UulfSyKBmhinpc7m8Z4eVvAwKxZO6kw7Kw8O8jwplhcUUVpRUygkb8
 AWSEntityColoring(ClientVPN)
 !define ClientVPN(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, ClientVPN, ClientVPN)
 !define ClientVPN(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, ClientVPN, ClientVPN)
+!define ClientVPN(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, ClientVPN*e_scale, ClientVPN)
 !define ClientVPNParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, ClientVPN, ClientVPN)
 !define ClientVPNParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, ClientVPN, ClientVPN)

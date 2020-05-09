@@ -10,5 +10,6 @@ w9T6uO0AdPO_gqSzTzS0DF9Xj60MqGqHPbhOCF-fJ3jOSrv-bQuFqJABUXOmz0DDDMW2i_9ZYzgNll5h
 AWSEntityColoring(IoTEcho)
 !define IoTEcho(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTEcho, IoTEcho)
 !define IoTEcho(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTEcho, IoTEcho)
+!define IoTEcho(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTEcho*e_scale, IoTEcho)
 !define IoTEchoParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTEcho, IoTEcho)
 !define IoTEchoParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTEcho, IoTEcho)

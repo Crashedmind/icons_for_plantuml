@@ -8,5 +8,6 @@ gFpL8KiX8DOa8jGamsb9wDMLHTMryPo0J4GPI3LnY5Jmy1z9XAjzFhfo7y_p_iCEot5kmKYBtsNtjvI5
 AWSEntityColoring(SNSTopic)
 !define SNSTopic(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, SNSTopic, SNSTopic)
 !define SNSTopic(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, SNSTopic, SNSTopic)
+!define SNSTopic(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, SNSTopic*e_scale, SNSTopic)
 !define SNSTopicParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, SNSTopic, SNSTopic)
 !define SNSTopicParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, SNSTopic, SNSTopic)

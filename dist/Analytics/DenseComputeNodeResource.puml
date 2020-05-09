@@ -11,5 +11,6 @@ wsTz_Qxk7-Nzgxv_LlVlulcXS7ufdP-AvxVQ-P5gvzT_F3_3w5_dXrQQd_vdVjkhL-VNulpy2_e6
 AWSEntityColoring(DenseComputeNodeResource)
 !define DenseComputeNodeResource(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, DenseComputeNodeResource, DenseComputeNodeResource)
 !define DenseComputeNodeResource(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, DenseComputeNodeResource, DenseComputeNodeResource)
+!define DenseComputeNodeResource(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, DenseComputeNodeResource*e_scale, DenseComputeNodeResource)
 !define DenseComputeNodeResourceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, DenseComputeNodeResource, DenseComputeNodeResource)
 !define DenseComputeNodeResourceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, DenseComputeNodeResource, DenseComputeNodeResource)

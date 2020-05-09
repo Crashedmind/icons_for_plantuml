@@ -10,5 +10,6 @@ t_BL1gk0SagsVvpI_PEHxr-ZPF_-g4yE61_NoDdpgp5DM09mFdz-QgkrpcFS-Epv7NWIxNpyu6VyQ9VY
 AWSEntityColoring(IAMAWSSTS)
 !define IAMAWSSTS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, IAMAWSSTS, IAMAWSSTS)
 !define IAMAWSSTS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, IAMAWSSTS, IAMAWSSTS)
+!define IAMAWSSTS(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, IAMAWSSTS*e_scale, IAMAWSSTS)
 !define IAMAWSSTSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, IAMAWSSTS, IAMAWSSTS)
 !define IAMAWSSTSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, IAMAWSSTS, IAMAWSSTS)

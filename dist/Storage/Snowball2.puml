@@ -9,5 +9,6 @@ dJW_0iVv4PzViVZyUl_v-VxpEpy_n9Y07s9Pbci
 AWSEntityColoring(Snowball2)
 !define Snowball2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, Snowball2, Snowball2)
 !define Snowball2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, Snowball2, Snowball2)
+!define Snowball2(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, Snowball2*e_scale, Snowball2)
 !define Snowball2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, Snowball2, Snowball2)
 !define Snowball2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, Snowball2, Snowball2)

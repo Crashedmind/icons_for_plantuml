@@ -10,5 +10,6 @@ VyVWyclDDqHKpRBu3d_5uAEwZaWt_jDbX-7dfVCATi-N_DB4pnZek7e5LPFdnnZhc_MlCSZu3FA4G1D2
 AWSEntityColoring(Amplify)
 !define Amplify(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, Amplify, Amplify)
 !define Amplify(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, Amplify, Amplify)
+!define Amplify(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, Amplify*e_scale, Amplify)
 !define AmplifyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, Amplify, Amplify)
 !define AmplifyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, Amplify, Amplify)

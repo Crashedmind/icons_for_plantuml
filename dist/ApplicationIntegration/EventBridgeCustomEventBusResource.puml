@@ -12,5 +12,6 @@ dYCk6OC4nTmvzDmpaW34t3dyzjphdmwLScwuU-wTOu3jM-pxugr-3AjlVmh-upq
 AWSEntityColoring(EventBridgeCustomEventBusResource)
 !define EventBridgeCustomEventBusResource(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, EventBridgeCustomEventBusResource, EventBridgeCustomEventBusResource)
 !define EventBridgeCustomEventBusResource(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, EventBridgeCustomEventBusResource, EventBridgeCustomEventBusResource)
+!define EventBridgeCustomEventBusResource(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, EventBridgeCustomEventBusResource*e_scale, EventBridgeCustomEventBusResource)
 !define EventBridgeCustomEventBusResourceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, EventBridgeCustomEventBusResource, EventBridgeCustomEventBusResource)
 !define EventBridgeCustomEventBusResourceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, EventBridgeCustomEventBusResource, EventBridgeCustomEventBusResource)

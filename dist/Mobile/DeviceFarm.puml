@@ -11,5 +11,6 @@ ISQotFldk7yxO8_vhnVxztX-MEtwgrMydn_p-KNPzV_Y_9hFJmxdvt1-QtCXNvpVS_zW48NU-eUHtJGz
 AWSEntityColoring(DeviceFarm)
 !define DeviceFarm(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, DeviceFarm, DeviceFarm)
 !define DeviceFarm(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, DeviceFarm, DeviceFarm)
+!define DeviceFarm(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, DeviceFarm*e_scale, DeviceFarm)
 !define DeviceFarmParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, DeviceFarm, DeviceFarm)
 !define DeviceFarmParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, DeviceFarm, DeviceFarm)

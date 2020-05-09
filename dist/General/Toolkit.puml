@@ -12,5 +12,6 @@ mPaVWAhHfN45mP4lO2r9gj8CQYZXn2-i-OCutzrk5npvf5oJA_cQIppsNJZoXe4BBkTtWM7jp8EvG9tV
 AWSEntityColoring(Toolkit)
 !define Toolkit(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Toolkit, Toolkit)
 !define Toolkit(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Toolkit, Toolkit)
+!define Toolkit(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Toolkit*e_scale, Toolkit)
 !define ToolkitParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Toolkit, Toolkit)
 !define ToolkitParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Toolkit, Toolkit)

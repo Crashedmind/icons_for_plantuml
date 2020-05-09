@@ -12,5 +12,6 @@ Kklv_k13ZbzFx2y2LClX-Vwaa_oM_OtyiVjZlh_-dl9V_ijd
 AWSEntityColoring(Pinpoint)
 !define Pinpoint(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, Pinpoint, Pinpoint)
 !define Pinpoint(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Pinpoint, Pinpoint)
+!define Pinpoint(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Pinpoint*e_scale, Pinpoint)
 !define PinpointParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, Pinpoint, Pinpoint)
 !define PinpointParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, Pinpoint, Pinpoint)

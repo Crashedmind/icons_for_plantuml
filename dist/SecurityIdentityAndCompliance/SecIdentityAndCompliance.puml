@@ -10,5 +10,6 @@ ZLX62EAiu8spSfcPM2jNPVk-7z3t9fpPzwqxZ8AF8aqJFjVIUQnwXTLp-fn5x_ZGwRF-O_ZNlruV-opS
 AWSEntityColoring(SecIdentityAndCompliance)
 !define SecIdentityAndCompliance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, SecIdentityAndCompliance, SecIdentityAndCompliance)
 !define SecIdentityAndCompliance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, SecIdentityAndCompliance, SecIdentityAndCompliance)
+!define SecIdentityAndCompliance(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, SecIdentityAndCompliance*e_scale, SecIdentityAndCompliance)
 !define SecIdentityAndComplianceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, SecIdentityAndCompliance, SecIdentityAndCompliance)
 !define SecIdentityAndComplianceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, SecIdentityAndCompliance, SecIdentityAndCompliance)

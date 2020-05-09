@@ -14,5 +14,6 @@ kOmhGjrcYW5ohpvS6syjq1tzeCacq6xD9-ypxBSEjACcoxVNV8FDx6-l-VVa0Dr7cQVcVPRbV3qZDtRc
 AWSEntityColoring(Users)
 !define Users(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Users, Users)
 !define Users(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Users, Users)
+!define Users(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Users*e_scale, Users)
 !define UsersParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Users, Users)
 !define UsersParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Users, Users)

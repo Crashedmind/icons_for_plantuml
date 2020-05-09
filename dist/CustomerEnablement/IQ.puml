@@ -12,5 +12,6 @@ E_3knFSuRC4EIErE_4HMrwckJlmCs2M05DcV2JkYsLy0sRy2V_dBlm
 AWSEntityColoring(IQ)
 !define IQ(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, IQ, IQ)
 !define IQ(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, IQ, IQ)
+!define IQ(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, IQ*e_scale, IQ)
 !define IQParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, IQ, IQ)
 !define IQParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, IQ, IQ)

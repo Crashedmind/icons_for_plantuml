@@ -10,5 +10,6 @@ _VCRnDBzPIAS1JZtJZWFCEQDSXwWxe8rSLV6hx-_Ndz_llx-VltySFtySltyTFtyLi-FrywlhxSs
 AWSEntityColoring(APIGatewayEndpoint2)
 !define APIGatewayEndpoint2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, APIGatewayEndpoint2, APIGatewayEndpoint2)
 !define APIGatewayEndpoint2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, APIGatewayEndpoint2, APIGatewayEndpoint2)
+!define APIGatewayEndpoint2(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, APIGatewayEndpoint2*e_scale, APIGatewayEndpoint2)
 !define APIGatewayEndpoint2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, APIGatewayEndpoint2, APIGatewayEndpoint2)
 !define APIGatewayEndpoint2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, APIGatewayEndpoint2, APIGatewayEndpoint2)

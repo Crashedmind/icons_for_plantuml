@@ -9,6 +9,7 @@ JKFB6bAdeP_bonYc8o9OXw766jPX37cE3v75_TTmUVyrzBZm_TNGBtf_rt-_w_-Vw__Vry-_zjjlltrU
 AWSEntityColoring(Blockchain)
 !define Blockchain(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, Blockchain, Blockchain)
 !define Blockchain(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, Blockchain, Blockchain)
+!define Blockchain(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, Blockchain*e_scale, Blockchain)
 !define BlockchainParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, Blockchain, Blockchain)
 !define BlockchainParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, Blockchain, Blockchain)
 
@@ -20,6 +21,7 @@ nDwqlJKgJlgYePqMKHKvCjq2x-7xHzyV_ltm_mVzVz7zW-xVFqC88QG6
 AWSEntityColoring(BlockchainResourceIcon)
 !define BlockchainResourceIcon(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, BlockchainResourceIcon, BlockchainResourceIcon)
 !define BlockchainResourceIcon(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, BlockchainResourceIcon, BlockchainResourceIcon)
+!define BlockchainResourceIcon(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, BlockchainResourceIcon*e_scale, BlockchainResourceIcon)
 !define BlockchainResourceIconParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, BlockchainResourceIcon, BlockchainResourceIcon)
 !define BlockchainResourceIconParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, BlockchainResourceIcon, BlockchainResourceIcon)
 
@@ -33,6 +35,7 @@ w7tzAlLVQXY6uGu
 AWSEntityColoring(ManagedBlockchain)
 !define ManagedBlockchain(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ManagedBlockchain, ManagedBlockchain)
 !define ManagedBlockchain(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ManagedBlockchain, ManagedBlockchain)
+!define ManagedBlockchain(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ManagedBlockchain*e_scale, ManagedBlockchain)
 !define ManagedBlockchainParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ManagedBlockchain, ManagedBlockchain)
 !define ManagedBlockchainParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ManagedBlockchain, ManagedBlockchain)
 
@@ -46,6 +49,7 @@ lvqXuWPIysnUqa-T_B3_rthzzCUlt_lxXvVlNpvZ__Jo_Ti___np2G
 AWSEntityColoring(QuantumLedgerDatabaseQLDB)
 !define QuantumLedgerDatabaseQLDB(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
 !define QuantumLedgerDatabaseQLDB(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
+!define QuantumLedgerDatabaseQLDB(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, QuantumLedgerDatabaseQLDB*e_scale, QuantumLedgerDatabaseQLDB)
 !define QuantumLedgerDatabaseQLDBParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
 !define QuantumLedgerDatabaseQLDBParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, QuantumLedgerDatabaseQLDB, QuantumLedgerDatabaseQLDB)
 

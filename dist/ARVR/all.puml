@@ -9,6 +9,7 @@ TO4l0gZEzufCsDd-rnhoN2zKtKLoWk-bkHq--vabr0TypEy_WiwEmc9K7FATAd_fVDwOZygdU_uEF_pm
 AWSEntityColoring(ARVR)
 !define ARVR(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, ARVR, ARVR)
 !define ARVR(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, ARVR, ARVR)
+!define ARVR(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, ARVR*e_scale, ARVR)
 !define ARVRParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, ARVR, ARVR)
 !define ARVRParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, ARVR, ARVR)
 
@@ -23,6 +24,7 @@ AHy0nu8Ue-gMJrFBOgjTKr_pYfyChlaOjDhmay6vj0xaWvyFxdKOyiYlZSFQGGZIVMbSrhaa46WOf-dm
 AWSEntityColoring(Sumerian)
 !define Sumerian(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, Sumerian, Sumerian)
 !define Sumerian(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, Sumerian, Sumerian)
+!define Sumerian(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, Sumerian*e_scale, Sumerian)
 !define SumerianParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, Sumerian, Sumerian)
 !define SumerianParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, Sumerian, Sumerian)
 

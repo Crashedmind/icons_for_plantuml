@@ -14,5 +14,6 @@ nD_S7rxVNzxVdzxVtzxV7z_VNz_Vdz_Ut_y5
 AWSEntityColoring(ClassicLoadBalancer)
 !define ClassicLoadBalancer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, ClassicLoadBalancer, ClassicLoadBalancer)
 !define ClassicLoadBalancer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, ClassicLoadBalancer, ClassicLoadBalancer)
+!define ClassicLoadBalancer(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, ClassicLoadBalancer*e_scale, ClassicLoadBalancer)
 !define ClassicLoadBalancerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, ClassicLoadBalancer, ClassicLoadBalancer)
 !define ClassicLoadBalancerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, ClassicLoadBalancer, ClassicLoadBalancer)

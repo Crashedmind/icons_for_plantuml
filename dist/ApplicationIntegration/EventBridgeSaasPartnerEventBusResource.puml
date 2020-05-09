@@ -12,5 +12,6 @@ k_M9VTxkTdaEGFbBIIYUnHcyxZdYThlRIyh_0g2JO0IRAr9diA1d0OqjawPdHIK6V9-0tYxk_T4Uef1e
 AWSEntityColoring(EventBridgeSaasPartnerEventBusResource)
 !define EventBridgeSaasPartnerEventBusResource(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, EventBridgeSaasPartnerEventBusResource, EventBridgeSaasPartnerEventBusResource)
 !define EventBridgeSaasPartnerEventBusResource(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, EventBridgeSaasPartnerEventBusResource, EventBridgeSaasPartnerEventBusResource)
+!define EventBridgeSaasPartnerEventBusResource(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, EventBridgeSaasPartnerEventBusResource*e_scale, EventBridgeSaasPartnerEventBusResource)
 !define EventBridgeSaasPartnerEventBusResourceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, EventBridgeSaasPartnerEventBusResource, EventBridgeSaasPartnerEventBusResource)
 !define EventBridgeSaasPartnerEventBusResourceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, EventBridgeSaasPartnerEventBusResource, EventBridgeSaasPartnerEventBusResource)

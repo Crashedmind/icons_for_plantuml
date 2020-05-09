@@ -9,5 +9,6 @@ vOkXtjB28hs24sYab-HJbkIj_LTCloMT79RVnw-_ev_KAyfDqCUz4JVHxlKpk-ctNZ_zzpQgxlg0z-j1
 AWSEntityColoring(Storage)
 !define Storage(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, Storage, Storage)
 !define Storage(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, Storage, Storage)
+!define Storage(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, Storage*e_scale, Storage)
 !define StorageParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, Storage, Storage)
 !define StorageParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, Storage, Storage)

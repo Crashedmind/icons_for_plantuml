@@ -13,5 +13,6 @@ ZRxW0RNd_k7wmBy1
 AWSEntityColoring(RDSPostgreSQLinstance)
 !define RDSPostgreSQLinstance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSPostgreSQLinstance, RDSPostgreSQLinstance)
 !define RDSPostgreSQLinstance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSPostgreSQLinstance, RDSPostgreSQLinstance)
+!define RDSPostgreSQLinstance(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSPostgreSQLinstance*e_scale, RDSPostgreSQLinstance)
 !define RDSPostgreSQLinstanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSPostgreSQLinstance, RDSPostgreSQLinstance)
 !define RDSPostgreSQLinstanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSPostgreSQLinstance, RDSPostgreSQLinstance)

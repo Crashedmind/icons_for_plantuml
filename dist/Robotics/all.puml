@@ -12,6 +12,7 @@ _9a7V7c-xCmlpBmuT9LFt-UrCJvN_db_k_rRsEmVEmIrpLjjpgzdB6pEB-dOaitztGb-6j--_Gi
 AWSEntityColoring(RoboMaker)
 !define RoboMaker(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, RoboMaker, RoboMaker)
 !define RoboMaker(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, RoboMaker, RoboMaker)
+!define RoboMaker(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, RoboMaker*e_scale, RoboMaker)
 !define RoboMakerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, RoboMaker, RoboMaker)
 !define RoboMakerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, RoboMaker, RoboMaker)
 
@@ -30,6 +31,7 @@ pER6cl9qDUCtiqJwcoE4_0hx5m
 AWSEntityColoring(RoboMakerCloudExtensionROS)
 !define RoboMakerCloudExtensionROS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, RoboMakerCloudExtensionROS, RoboMakerCloudExtensionROS)
 !define RoboMakerCloudExtensionROS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, RoboMakerCloudExtensionROS, RoboMakerCloudExtensionROS)
+!define RoboMakerCloudExtensionROS(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, RoboMakerCloudExtensionROS*e_scale, RoboMakerCloudExtensionROS)
 !define RoboMakerCloudExtensionROSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, RoboMakerCloudExtensionROS, RoboMakerCloudExtensionROS)
 !define RoboMakerCloudExtensionROSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, RoboMakerCloudExtensionROS, RoboMakerCloudExtensionROS)
 
@@ -47,6 +49,7 @@ ES-elVWWPNfKxBAONo3QWrSoVzI_ybI_EYb6qIXBFlYME9bo3cj59RIGWI-rtQQNIuqgr5hzhJOE3o82
 AWSEntityColoring(RoboMakerDevEnvironment)
 !define RoboMakerDevEnvironment(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, RoboMakerDevEnvironment, RoboMakerDevEnvironment)
 !define RoboMakerDevEnvironment(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, RoboMakerDevEnvironment, RoboMakerDevEnvironment)
+!define RoboMakerDevEnvironment(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, RoboMakerDevEnvironment*e_scale, RoboMakerDevEnvironment)
 !define RoboMakerDevEnvironmentParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, RoboMakerDevEnvironment, RoboMakerDevEnvironment)
 !define RoboMakerDevEnvironmentParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, RoboMakerDevEnvironment, RoboMakerDevEnvironment)
 
@@ -66,6 +69,7 @@ yuvEBf1LUVhyWGVq-t8yVu9vW1XLH7-6LGxoPzRzoVZdYEdpl_W5
 AWSEntityColoring(RoboMakerFleetManagement)
 !define RoboMakerFleetManagement(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, RoboMakerFleetManagement, RoboMakerFleetManagement)
 !define RoboMakerFleetManagement(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, RoboMakerFleetManagement, RoboMakerFleetManagement)
+!define RoboMakerFleetManagement(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, RoboMakerFleetManagement*e_scale, RoboMakerFleetManagement)
 !define RoboMakerFleetManagementParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, RoboMakerFleetManagement, RoboMakerFleetManagement)
 !define RoboMakerFleetManagementParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, RoboMakerFleetManagement, RoboMakerFleetManagement)
 
@@ -81,6 +85,7 @@ ufP_7RtX5_yG5vy_jVdnuVhpBx1yK650EK-5Nyj_lW4
 AWSEntityColoring(RoboMakerSimulation)
 !define RoboMakerSimulation(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, RoboMakerSimulation, RoboMakerSimulation)
 !define RoboMakerSimulation(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, RoboMakerSimulation, RoboMakerSimulation)
+!define RoboMakerSimulation(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, RoboMakerSimulation*e_scale, RoboMakerSimulation)
 !define RoboMakerSimulationParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, RoboMakerSimulation, RoboMakerSimulation)
 !define RoboMakerSimulationParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, RoboMakerSimulation, RoboMakerSimulation)
 
@@ -94,6 +99,7 @@ qxiCvBdFd-oJT5r__1H_-Hgh-Ik_qO_piBAJ4OznA_mBVGC
 AWSEntityColoring(Robotics)
 !define Robotics(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, Robotics, Robotics)
 !define Robotics(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, Robotics, Robotics)
+!define Robotics(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, Robotics*e_scale, Robotics)
 !define RoboticsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, Robotics, Robotics)
 !define RoboticsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, Robotics, Robotics)
 

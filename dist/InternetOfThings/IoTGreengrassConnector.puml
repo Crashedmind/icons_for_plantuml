@@ -8,5 +8,6 @@ ZlS-h_DnQ7xNfppFMJpcgHmwK86moq_EyW6e--uplM-VM0SG1zhzv_7h0E80i_mbdw6CUMl_3VDdMp_h
 AWSEntityColoring(IoTGreengrassConnector)
 !define IoTGreengrassConnector(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTGreengrassConnector, IoTGreengrassConnector)
 !define IoTGreengrassConnector(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTGreengrassConnector, IoTGreengrassConnector)
+!define IoTGreengrassConnector(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTGreengrassConnector*e_scale, IoTGreengrassConnector)
 !define IoTGreengrassConnectorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTGreengrassConnector, IoTGreengrassConnector)
 !define IoTGreengrassConnectorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTGreengrassConnector, IoTGreengrassConnector)

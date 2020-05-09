@@ -12,5 +12,6 @@ bld-EldldD_UFp--VtxDvsVWyHpv_1nVJRsLTy_l__mt_Z_-MVm7
 AWSEntityColoring(IoTCoffeePot)
 !define IoTCoffeePot(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTCoffeePot, IoTCoffeePot)
 !define IoTCoffeePot(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCoffeePot, IoTCoffeePot)
+!define IoTCoffeePot(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCoffeePot*e_scale, IoTCoffeePot)
 !define IoTCoffeePotParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTCoffeePot, IoTCoffeePot)
 !define IoTCoffeePotParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTCoffeePot, IoTCoffeePot)

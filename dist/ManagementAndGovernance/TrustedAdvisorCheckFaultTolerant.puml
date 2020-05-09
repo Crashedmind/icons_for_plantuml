@@ -11,5 +11,6 @@ oYB2DOtCuUUXZcl6mfl9y1nsU3-gw7Yg3OoqjoHGtpTwDxoJ0lYuy7vu7V4p_sM4YvXs8tGYomnVHcWa
 AWSEntityColoring(TrustedAdvisorCheckFaultTolerant)
 !define TrustedAdvisorCheckFaultTolerant(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #CC2264, TrustedAdvisorCheckFaultTolerant, TrustedAdvisorCheckFaultTolerant)
 !define TrustedAdvisorCheckFaultTolerant(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, TrustedAdvisorCheckFaultTolerant, TrustedAdvisorCheckFaultTolerant)
+!define TrustedAdvisorCheckFaultTolerant(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #CC2264, TrustedAdvisorCheckFaultTolerant*e_scale, TrustedAdvisorCheckFaultTolerant)
 !define TrustedAdvisorCheckFaultTolerantParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #CC2264, TrustedAdvisorCheckFaultTolerant, TrustedAdvisorCheckFaultTolerant)
 !define TrustedAdvisorCheckFaultTolerantParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #CC2264, TrustedAdvisorCheckFaultTolerant, TrustedAdvisorCheckFaultTolerant)

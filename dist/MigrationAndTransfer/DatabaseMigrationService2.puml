@@ -10,5 +10,6 @@ nqcMUSRUWvTvENff-h2wzsKn6jtvVfddot_IRx-j0G
 AWSEntityColoring(DatabaseMigrationService2)
 !define DatabaseMigrationService2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, DatabaseMigrationService2, DatabaseMigrationService2)
 !define DatabaseMigrationService2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DatabaseMigrationService2, DatabaseMigrationService2)
+!define DatabaseMigrationService2(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DatabaseMigrationService2*e_scale, DatabaseMigrationService2)
 !define DatabaseMigrationService2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, DatabaseMigrationService2, DatabaseMigrationService2)
 !define DatabaseMigrationService2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, DatabaseMigrationService2, DatabaseMigrationService2)

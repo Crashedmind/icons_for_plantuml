@@ -12,5 +12,6 @@ pW04H4TB-7NrQFiKbs-GkYBcntS5aIStK97dxNDiR7UoURzXo0Kx-YieqZSPQZxY_Vtw1U_d-_W1
 AWSEntityColoring(S3Bucket)
 !define S3Bucket(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, S3Bucket, S3Bucket)
 !define S3Bucket(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, S3Bucket, S3Bucket)
+!define S3Bucket(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, S3Bucket*e_scale, S3Bucket)
 !define S3BucketParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, S3Bucket, S3Bucket)
 !define S3BucketParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, S3Bucket, S3Bucket)

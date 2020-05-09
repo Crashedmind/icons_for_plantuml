@@ -11,6 +11,7 @@ AtS
 AWSEntityColoring(APIGateway)
 !define APIGateway(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, APIGateway, APIGateway)
 !define APIGateway(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, APIGateway, APIGateway)
+!define APIGateway(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, APIGateway*e_scale, APIGateway)
 !define APIGatewayParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, APIGateway, APIGateway)
 !define APIGatewayParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, APIGateway, APIGateway)
 
@@ -24,6 +25,7 @@ h-xWRTFBzgydY6tpooYu2aZjKtCzGTL_NwWuPW3CjBvccQxu-VFh-VFp-VFx-VU7y-ylvz-Vph-_xRy_
 AWSEntityColoring(APIGatewayEndpoint)
 !define APIGatewayEndpoint(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, APIGatewayEndpoint, APIGatewayEndpoint)
 !define APIGatewayEndpoint(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, APIGatewayEndpoint, APIGatewayEndpoint)
+!define APIGatewayEndpoint(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, APIGatewayEndpoint*e_scale, APIGatewayEndpoint)
 !define APIGatewayEndpointParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, APIGatewayEndpoint, APIGatewayEndpoint)
 !define APIGatewayEndpointParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, APIGatewayEndpoint, APIGatewayEndpoint)
 
@@ -37,6 +39,7 @@ VyVWyclDDqHKpRBu3d_5uAEwZaWt_jDbX-7dfVCATi-N_DB4pnZek7e5LPFdnnZhc_MlCSZu3FA4G1D2
 AWSEntityColoring(Amplify)
 !define Amplify(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, Amplify, Amplify)
 !define Amplify(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, Amplify, Amplify)
+!define Amplify(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, Amplify*e_scale, Amplify)
 !define AmplifyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, Amplify, Amplify)
 !define AmplifyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, Amplify, Amplify)
 
@@ -51,6 +54,7 @@ Ylps1fs2FlMFU0PD_PELN-Ot8Cj-OOXXPKn2JB36jjm_axZPNsFWA7G0lBZE8luVumuXMgJ4gIxtRmOh
 AWSEntityColoring(AppSync2)
 !define AppSync2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, AppSync2, AppSync2)
 !define AppSync2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, AppSync2, AppSync2)
+!define AppSync2(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, AppSync2*e_scale, AppSync2)
 !define AppSync2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, AppSync2, AppSync2)
 !define AppSync2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, AppSync2, AppSync2)
 
@@ -65,6 +69,7 @@ ISQotFldk7yxO8_vhnVxztX-MEtwgrMydn_p-KNPzV_Y_9hFJmxdvt1-QtCXNvpVS_zW48NU-eUHtJGz
 AWSEntityColoring(DeviceFarm)
 !define DeviceFarm(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, DeviceFarm, DeviceFarm)
 !define DeviceFarm(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, DeviceFarm, DeviceFarm)
+!define DeviceFarm(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, DeviceFarm*e_scale, DeviceFarm)
 !define DeviceFarmParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, DeviceFarm, DeviceFarm)
 !define DeviceFarmParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, DeviceFarm, DeviceFarm)
 
@@ -77,6 +82,7 @@ rq-xrwWwflw4Z-k1-0n2k8Udm5zm2G
 AWSEntityColoring(Mobile)
 !define Mobile(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, Mobile, Mobile)
 !define Mobile(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, Mobile, Mobile)
+!define Mobile(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, Mobile*e_scale, Mobile)
 !define MobileParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, Mobile, Mobile)
 !define MobileParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, Mobile, Mobile)
 
@@ -91,6 +97,7 @@ uGttnoFO_TzoVv5EyrvvVnAZe1VtTx5Up0_5ublc5sL2l7b-ilZ4-QsU7oFdtyGDDpm
 AWSEntityColoring(Pinpoint2)
 !define Pinpoint2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, Pinpoint2, Pinpoint2)
 !define Pinpoint2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, Pinpoint2, Pinpoint2)
+!define Pinpoint2(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, Pinpoint2*e_scale, Pinpoint2)
 !define Pinpoint2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, Pinpoint2, Pinpoint2)
 !define Pinpoint2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, Pinpoint2, Pinpoint2)
 

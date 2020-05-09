@@ -12,6 +12,7 @@ dwzpS_CF
 AWSEntityColoring(AmazonRedshift)
 !define AmazonRedshift(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, AmazonRedshift, AmazonRedshift)
 !define AmazonRedshift(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, AmazonRedshift, AmazonRedshift)
+!define AmazonRedshift(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, AmazonRedshift*e_scale, AmazonRedshift)
 !define AmazonRedshiftParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, AmazonRedshift, AmazonRedshift)
 !define AmazonRedshiftParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, AmazonRedshift, AmazonRedshift)
 
@@ -28,6 +29,7 @@ jvbSpEN-sUkf_XlroV__8tglZpxw3W
 AWSEntityColoring(Aurora)
 !define Aurora(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, Aurora, Aurora)
 !define Aurora(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Aurora, Aurora)
+!define Aurora(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Aurora*e_scale, Aurora)
 !define AuroraParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, Aurora, Aurora)
 !define AuroraParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, Aurora, Aurora)
 
@@ -43,6 +45,7 @@ RYelchSQviy4yCYB8cvh6UJ1x_yeVp3J1zuM_mD5gdpyf_eA
 AWSEntityColoring(DMSDatabaseMigrationWorkflow)
 !define DMSDatabaseMigrationWorkflow(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DMSDatabaseMigrationWorkflow, DMSDatabaseMigrationWorkflow)
 !define DMSDatabaseMigrationWorkflow(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DMSDatabaseMigrationWorkflow, DMSDatabaseMigrationWorkflow)
+!define DMSDatabaseMigrationWorkflow(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DMSDatabaseMigrationWorkflow*e_scale, DMSDatabaseMigrationWorkflow)
 !define DMSDatabaseMigrationWorkflowParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DMSDatabaseMigrationWorkflow, DMSDatabaseMigrationWorkflow)
 !define DMSDatabaseMigrationWorkflowParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DMSDatabaseMigrationWorkflow, DMSDatabaseMigrationWorkflow)
 
@@ -56,6 +59,7 @@ hqvZX0Daoww9drkVpTWu8lFwwuC_h_wr-q9ldVZ0SNQW_HeC4zy8K3oo5Z9S4CWcVbK87daBA56p-j-h
 AWSEntityColoring(Database)
 !define Database(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, Database, Database)
 !define Database(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Database, Database)
+!define Database(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Database*e_scale, Database)
 !define DatabaseParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, Database, Database)
 !define DatabaseParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, Database, Database)
 
@@ -70,6 +74,7 @@ dogQ65QvY6XauL1vt7x7CfOtkMZJ_s-yY7KaCanxcxfQ9CYj6hW-_-DbDHzQl3yb7LpiJVA-Jx7Lte-U
 AWSEntityColoring(DatabaseMigrationService)
 !define DatabaseMigrationService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DatabaseMigrationService, DatabaseMigrationService)
 !define DatabaseMigrationService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DatabaseMigrationService, DatabaseMigrationService)
+!define DatabaseMigrationService(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DatabaseMigrationService*e_scale, DatabaseMigrationService)
 !define DatabaseMigrationServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DatabaseMigrationService, DatabaseMigrationService)
 !define DatabaseMigrationServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DatabaseMigrationService, DatabaseMigrationService)
 
@@ -84,6 +89,7 @@ N-15uUN67nEoSkitH37OhLzyJFgn_uJV_oGn_e3q3DUluXSoTfG0L8m-pjz1SE_5SK0VrW_LWpBWrke7
 AWSEntityColoring(DenseComputeNodeResource2)
 !define DenseComputeNodeResource2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DenseComputeNodeResource2, DenseComputeNodeResource2)
 !define DenseComputeNodeResource2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DenseComputeNodeResource2, DenseComputeNodeResource2)
+!define DenseComputeNodeResource2(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DenseComputeNodeResource2*e_scale, DenseComputeNodeResource2)
 !define DenseComputeNodeResource2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DenseComputeNodeResource2, DenseComputeNodeResource2)
 !define DenseComputeNodeResource2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DenseComputeNodeResource2, DenseComputeNodeResource2)
 
@@ -98,6 +104,7 @@ vwzw_gpcxsBzKAXVIlLJiNuhre-r-hLOF__F-jt-P__I_q__jeQh_MknV_uBV0C
 AWSEntityColoring(DenseStorageNodeResource2)
 !define DenseStorageNodeResource2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DenseStorageNodeResource2, DenseStorageNodeResource2)
 !define DenseStorageNodeResource2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DenseStorageNodeResource2, DenseStorageNodeResource2)
+!define DenseStorageNodeResource2(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DenseStorageNodeResource2*e_scale, DenseStorageNodeResource2)
 !define DenseStorageNodeResource2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DenseStorageNodeResource2, DenseStorageNodeResource2)
 !define DenseStorageNodeResource2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DenseStorageNodeResource2, DenseStorageNodeResource2)
 
@@ -112,6 +119,7 @@ rkY-3W3DHjVDa-l7vVEFLOi_cl1t2KH4LRQkUrieeBAcdT_q_Bu-Ft1kVfYVNxvzVlhs-UtRvyVv-VLt
 AWSEntityColoring(DocumentDBwithMongoDBcompatibility)
 !define DocumentDBwithMongoDBcompatibility(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DocumentDBwithMongoDBcompatibility, DocumentDBwithMongoDBcompatibility)
 !define DocumentDBwithMongoDBcompatibility(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DocumentDBwithMongoDBcompatibility, DocumentDBwithMongoDBcompatibility)
+!define DocumentDBwithMongoDBcompatibility(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DocumentDBwithMongoDBcompatibility*e_scale, DocumentDBwithMongoDBcompatibility)
 !define DocumentDBwithMongoDBcompatibilityParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DocumentDBwithMongoDBcompatibility, DocumentDBwithMongoDBcompatibility)
 !define DocumentDBwithMongoDBcompatibilityParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DocumentDBwithMongoDBcompatibility, DocumentDBwithMongoDBcompatibility)
 
@@ -127,6 +135,7 @@ N1IuTFZoj_tBTNmP3NBfLHLr-fl-lJyFiB02C6OaxuwslZW7L__gAPUUIHgEV41d_qCQEideMFvv_rwC
 AWSEntityColoring(DynamoDB)
 !define DynamoDB(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DynamoDB, DynamoDB)
 !define DynamoDB(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DynamoDB, DynamoDB)
+!define DynamoDB(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DynamoDB*e_scale, DynamoDB)
 !define DynamoDBParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DynamoDB, DynamoDB)
 !define DynamoDBParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DynamoDB, DynamoDB)
 
@@ -139,6 +148,7 @@ KybxaMe1H2yYMJzQtmbfVrZUkrqkLXzsEV-OzuzxNCr4BAxchlBDpM___FjxulpDNpzvl_dDRtxpcv_z
 AWSEntityColoring(DynamoDBAttribute)
 !define DynamoDBAttribute(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DynamoDBAttribute, DynamoDBAttribute)
 !define DynamoDBAttribute(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DynamoDBAttribute, DynamoDBAttribute)
+!define DynamoDBAttribute(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DynamoDBAttribute*e_scale, DynamoDBAttribute)
 !define DynamoDBAttributeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DynamoDBAttribute, DynamoDBAttribute)
 !define DynamoDBAttributeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DynamoDBAttribute, DynamoDBAttribute)
 
@@ -152,6 +162,7 @@ _JZV
 AWSEntityColoring(DynamoDBAttributes)
 !define DynamoDBAttributes(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DynamoDBAttributes, DynamoDBAttributes)
 !define DynamoDBAttributes(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DynamoDBAttributes, DynamoDBAttributes)
+!define DynamoDBAttributes(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DynamoDBAttributes*e_scale, DynamoDBAttributes)
 !define DynamoDBAttributesParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DynamoDBAttributes, DynamoDBAttributes)
 !define DynamoDBAttributesParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DynamoDBAttributes, DynamoDBAttributes)
 
@@ -164,6 +175,7 @@ hfzQjFk7Kx-VTlzsxlZ_VEtvINr-Et_yQy_FQdu1
 AWSEntityColoring(DynamoDBGSI)
 !define DynamoDBGSI(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DynamoDBGSI, DynamoDBGSI)
 !define DynamoDBGSI(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DynamoDBGSI, DynamoDBGSI)
+!define DynamoDBGSI(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DynamoDBGSI*e_scale, DynamoDBGSI)
 !define DynamoDBGSIParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DynamoDBGSI, DynamoDBGSI)
 !define DynamoDBGSIParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DynamoDBGSI, DynamoDBGSI)
 
@@ -176,6 +188,7 @@ Hn5Uqegmz-eqnoODYFjJfqz6sB_jvbNUPoTlyZxzFzyVLLjC0B75L0k-kEJ-vyvV_lhbxv-uF_pX3t_u
 AWSEntityColoring(DynamoDBItem)
 !define DynamoDBItem(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DynamoDBItem, DynamoDBItem)
 !define DynamoDBItem(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DynamoDBItem, DynamoDBItem)
+!define DynamoDBItem(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DynamoDBItem*e_scale, DynamoDBItem)
 !define DynamoDBItemParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DynamoDBItem, DynamoDBItem)
 !define DynamoDBItemParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DynamoDBItem, DynamoDBItem)
 
@@ -189,6 +202,7 @@ zUty1G
 AWSEntityColoring(DynamoDBItems)
 !define DynamoDBItems(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DynamoDBItems, DynamoDBItems)
 !define DynamoDBItems(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DynamoDBItems, DynamoDBItems)
+!define DynamoDBItems(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DynamoDBItems*e_scale, DynamoDBItems)
 !define DynamoDBItemsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DynamoDBItems, DynamoDBItems)
 !define DynamoDBItemsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DynamoDBItems, DynamoDBItems)
 
@@ -200,6 +214,7 @@ S8puJqw9dU-TYOl4p-DBKQJpYmrPvlyJQGR48qfZHSHXP_Zxv-EN_NvF_9pKf_Ft_lMRhPyiRF-mw_jZ
 AWSEntityColoring(DynamoDBTable)
 !define DynamoDBTable(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, DynamoDBTable, DynamoDBTable)
 !define DynamoDBTable(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DynamoDBTable, DynamoDBTable)
+!define DynamoDBTable(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, DynamoDBTable*e_scale, DynamoDBTable)
 !define DynamoDBTableParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, DynamoDBTable, DynamoDBTable)
 !define DynamoDBTableParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, DynamoDBTable, DynamoDBTable)
 
@@ -215,6 +230,7 @@ niR3BlFpG_lhhty
 AWSEntityColoring(ElastiCache)
 !define ElastiCache(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, ElastiCache, ElastiCache)
 !define ElastiCache(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, ElastiCache, ElastiCache)
+!define ElastiCache(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, ElastiCache*e_scale, ElastiCache)
 !define ElastiCacheParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, ElastiCache, ElastiCache)
 !define ElastiCacheParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, ElastiCache, ElastiCache)
 
@@ -228,6 +244,7 @@ ZL_U6J-zDtvxP_putlZr_V7p-ta3
 AWSEntityColoring(ElastiCacheCacheNode)
 !define ElastiCacheCacheNode(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, ElastiCacheCacheNode, ElastiCacheCacheNode)
 !define ElastiCacheCacheNode(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, ElastiCacheCacheNode, ElastiCacheCacheNode)
+!define ElastiCacheCacheNode(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, ElastiCacheCacheNode*e_scale, ElastiCacheCacheNode)
 !define ElastiCacheCacheNodeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, ElastiCacheCacheNode, ElastiCacheCacheNode)
 !define ElastiCacheCacheNodeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, ElastiCacheCacheNode, ElastiCacheCacheNode)
 
@@ -244,6 +261,7 @@ _U6cs_UN-xZMkfRAz6pShkzlZUdrU4RxVlKR
 AWSEntityColoring(ElastiCacheForMemcached)
 !define ElastiCacheForMemcached(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, ElastiCacheForMemcached, ElastiCacheForMemcached)
 !define ElastiCacheForMemcached(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, ElastiCacheForMemcached, ElastiCacheForMemcached)
+!define ElastiCacheForMemcached(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, ElastiCacheForMemcached*e_scale, ElastiCacheForMemcached)
 !define ElastiCacheForMemcachedParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, ElastiCacheForMemcached, ElastiCacheForMemcached)
 !define ElastiCacheForMemcachedParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, ElastiCacheForMemcached, ElastiCacheForMemcached)
 
@@ -260,6 +278,7 @@ jrxg-VqxUVz-anQsAbtb8VNayyFaNTgmDwhttbhhlSQw4Zv8it1HfSgdgITNFJv9kihNgTgMlf3_-Wy
 AWSEntityColoring(ElastiCacheForRedis)
 !define ElastiCacheForRedis(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, ElastiCacheForRedis, ElastiCacheForRedis)
 !define ElastiCacheForRedis(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, ElastiCacheForRedis, ElastiCacheForRedis)
+!define ElastiCacheForRedis(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, ElastiCacheForRedis*e_scale, ElastiCacheForRedis)
 !define ElastiCacheForRedisParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, ElastiCacheForRedis, ElastiCacheForRedis)
 !define ElastiCacheForRedisParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, ElastiCacheForRedis, ElastiCacheForRedis)
 
@@ -275,6 +294,7 @@ xVbnVtuL2u1SP_Fp74Mrdy_lOzJRs3-CUhcuVzdVF-tpony
 AWSEntityColoring(ManagedApacheCassandraService)
 !define ManagedApacheCassandraService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, ManagedApacheCassandraService, ManagedApacheCassandraService)
 !define ManagedApacheCassandraService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, ManagedApacheCassandraService, ManagedApacheCassandraService)
+!define ManagedApacheCassandraService(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, ManagedApacheCassandraService*e_scale, ManagedApacheCassandraService)
 !define ManagedApacheCassandraServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, ManagedApacheCassandraService, ManagedApacheCassandraService)
 !define ManagedApacheCassandraServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, ManagedApacheCassandraService, ManagedApacheCassandraService)
 
@@ -290,6 +310,7 @@ HlrR-KcI2pzVB0NqgF_EUEIdgfcgbWC2NJindS_vtCxF64q5K-8S0akcD3Ac-HWg_JW_yqthxY_vorXo
 AWSEntityColoring(Neptune)
 !define Neptune(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, Neptune, Neptune)
 !define Neptune(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Neptune, Neptune)
+!define Neptune(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Neptune*e_scale, Neptune)
 !define NeptuneParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, Neptune, Neptune)
 !define NeptuneParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, Neptune, Neptune)
 
@@ -304,6 +325,7 @@ nUh9-Z5kkRKs-ElhbyYR--TR-_SRvuStpYzld9_UDh-zRNxypVdFVru
 AWSEntityColoring(QLDB)
 !define QLDB(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, QLDB, QLDB)
 !define QLDB(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, QLDB, QLDB)
+!define QLDB(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, QLDB*e_scale, QLDB)
 !define QLDBParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, QLDB, QLDB)
 !define QLDBParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, QLDB, QLDB)
 
@@ -319,6 +341,7 @@ mvitdm
 AWSEntityColoring(RDS)
 !define RDS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDS, RDS)
 !define RDS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDS, RDS)
+!define RDS(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDS*e_scale, RDS)
 !define RDSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDS, RDS)
 !define RDSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDS, RDS)
 
@@ -335,6 +358,7 @@ ukZusHzlOAPSS49ptliRQkVpX-kF_1i
 AWSEntityColoring(RDSAmazonAurorainstance)
 !define RDSAmazonAurorainstance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSAmazonAurorainstance, RDSAmazonAurorainstance)
 !define RDSAmazonAurorainstance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSAmazonAurorainstance, RDSAmazonAurorainstance)
+!define RDSAmazonAurorainstance(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSAmazonAurorainstance*e_scale, RDSAmazonAurorainstance)
 !define RDSAmazonAurorainstanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSAmazonAurorainstance, RDSAmazonAurorainstance)
 !define RDSAmazonAurorainstanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSAmazonAurorainstance, RDSAmazonAurorainstance)
 
@@ -350,6 +374,7 @@ hwnVNry_lxP-_mS
 AWSEntityColoring(RDSAmazonAurorainstancealt)
 !define RDSAmazonAurorainstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSAmazonAurorainstancealt, RDSAmazonAurorainstancealt)
 !define RDSAmazonAurorainstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSAmazonAurorainstancealt, RDSAmazonAurorainstancealt)
+!define RDSAmazonAurorainstancealt(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSAmazonAurorainstancealt*e_scale, RDSAmazonAurorainstancealt)
 !define RDSAmazonAurorainstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSAmazonAurorainstancealt, RDSAmazonAurorainstancealt)
 !define RDSAmazonAurorainstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSAmazonAurorainstancealt, RDSAmazonAurorainstancealt)
 
@@ -367,6 +392,7 @@ FlpTzsTR3p37-y_veysvFuZUhnycD_aN
 AWSEntityColoring(RDSAmazonRDSinstance)
 !define RDSAmazonRDSinstance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSAmazonRDSinstance, RDSAmazonRDSinstance)
 !define RDSAmazonRDSinstance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSAmazonRDSinstance, RDSAmazonRDSinstance)
+!define RDSAmazonRDSinstance(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSAmazonRDSinstance*e_scale, RDSAmazonRDSinstance)
 !define RDSAmazonRDSinstanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSAmazonRDSinstance, RDSAmazonRDSinstance)
 !define RDSAmazonRDSinstanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSAmazonRDSinstance, RDSAmazonRDSinstance)
 
@@ -381,6 +407,7 @@ OYPBaeVzLg1e-xcJQc27_VsAGxS1LRN8d3pt-XS1EnSaq0_w8-gSsleWUvFK8eb-x_lpB_p-7-VXF_o7
 AWSEntityColoring(RDSAmazonRDSinstancealt)
 !define RDSAmazonRDSinstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSAmazonRDSinstancealt, RDSAmazonRDSinstancealt)
 !define RDSAmazonRDSinstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSAmazonRDSinstancealt, RDSAmazonRDSinstancealt)
+!define RDSAmazonRDSinstancealt(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSAmazonRDSinstancealt*e_scale, RDSAmazonRDSinstancealt)
 !define RDSAmazonRDSinstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSAmazonRDSinstancealt, RDSAmazonRDSinstancealt)
 !define RDSAmazonRDSinstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSAmazonRDSinstancealt, RDSAmazonRDSinstancealt)
 
@@ -397,6 +424,7 @@ baGVy2FH_VnXSiFV
 AWSEntityColoring(RDSMariaDBinstance)
 !define RDSMariaDBinstance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSMariaDBinstance, RDSMariaDBinstance)
 !define RDSMariaDBinstance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSMariaDBinstance, RDSMariaDBinstance)
+!define RDSMariaDBinstance(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSMariaDBinstance*e_scale, RDSMariaDBinstance)
 !define RDSMariaDBinstanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSMariaDBinstance, RDSMariaDBinstance)
 !define RDSMariaDBinstanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSMariaDBinstance, RDSMariaDBinstance)
 
@@ -410,6 +438,7 @@ DGoq6YQ1oIe3mAZ2j3SFMtm_pTRJFeOALdPv-SVvQRzE1000WG20-Li7KTqxW04imVCyp_Cypz_-uVOl
 AWSEntityColoring(RDSMariaDBinstancealt)
 !define RDSMariaDBinstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSMariaDBinstancealt, RDSMariaDBinstancealt)
 !define RDSMariaDBinstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSMariaDBinstancealt, RDSMariaDBinstancealt)
+!define RDSMariaDBinstancealt(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSMariaDBinstancealt*e_scale, RDSMariaDBinstancealt)
 !define RDSMariaDBinstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSMariaDBinstancealt, RDSMariaDBinstancealt)
 !define RDSMariaDBinstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSMariaDBinstancealt, RDSMariaDBinstancealt)
 
@@ -426,6 +455,7 @@ _65oo7y1
 AWSEntityColoring(RDSMySQLinstance)
 !define RDSMySQLinstance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSMySQLinstance, RDSMySQLinstance)
 !define RDSMySQLinstance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSMySQLinstance, RDSMySQLinstance)
+!define RDSMySQLinstance(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSMySQLinstance*e_scale, RDSMySQLinstance)
 !define RDSMySQLinstanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSMySQLinstance, RDSMySQLinstance)
 !define RDSMySQLinstanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSMySQLinstance, RDSMySQLinstance)
 
@@ -439,6 +469,7 @@ v45FtyUxAzy_6ur_z7jdjtr_wyDV5OjrevyLzjU_7__QhsCQ00001c7-NK_3qXT-1FIelx-_lx-_t_oW
 AWSEntityColoring(RDSMySQLinstancealt)
 !define RDSMySQLinstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSMySQLinstancealt, RDSMySQLinstancealt)
 !define RDSMySQLinstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSMySQLinstancealt, RDSMySQLinstancealt)
+!define RDSMySQLinstancealt(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSMySQLinstancealt*e_scale, RDSMySQLinstancealt)
 !define RDSMySQLinstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSMySQLinstancealt, RDSMySQLinstancealt)
 !define RDSMySQLinstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSMySQLinstancealt, RDSMySQLinstancealt)
 
@@ -455,6 +486,7 @@ wPtN1RuDPUuVoW_u4m
 AWSEntityColoring(RDSOracleinstance)
 !define RDSOracleinstance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSOracleinstance, RDSOracleinstance)
 !define RDSOracleinstance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSOracleinstance, RDSOracleinstance)
+!define RDSOracleinstance(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSOracleinstance*e_scale, RDSOracleinstance)
 !define RDSOracleinstanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSOracleinstance, RDSOracleinstance)
 !define RDSOracleinstanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSOracleinstance, RDSOracleinstance)
 
@@ -468,6 +500,7 @@ vuipesNxlJA7iSxfcErbVUzBzmmVheXP7SzauKtdK3t6f_hy7n5Qt_c3_BV-zhU__UrlV_lR-xbtkDg_
 AWSEntityColoring(RDSOracleinstancealt)
 !define RDSOracleinstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSOracleinstancealt, RDSOracleinstancealt)
 !define RDSOracleinstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSOracleinstancealt, RDSOracleinstancealt)
+!define RDSOracleinstancealt(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSOracleinstancealt*e_scale, RDSOracleinstancealt)
 !define RDSOracleinstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSOracleinstancealt, RDSOracleinstancealt)
 !define RDSOracleinstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSOracleinstancealt, RDSOracleinstancealt)
 
@@ -484,6 +517,7 @@ ZRxW0RNd_k7wmBy1
 AWSEntityColoring(RDSPostgreSQLinstance)
 !define RDSPostgreSQLinstance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSPostgreSQLinstance, RDSPostgreSQLinstance)
 !define RDSPostgreSQLinstance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSPostgreSQLinstance, RDSPostgreSQLinstance)
+!define RDSPostgreSQLinstance(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSPostgreSQLinstance*e_scale, RDSPostgreSQLinstance)
 !define RDSPostgreSQLinstanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSPostgreSQLinstance, RDSPostgreSQLinstance)
 !define RDSPostgreSQLinstanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSPostgreSQLinstance, RDSPostgreSQLinstance)
 
@@ -497,6 +531,7 @@ u17XFFWFSxDDFiXg3__xokTkyt5cF_1WVDNtdd_jrua0020G031_wo2gUmSmW5NqFC_pFC_pjt-u_Slj
 AWSEntityColoring(RDSPostgreSQLinstancealt)
 !define RDSPostgreSQLinstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)
 !define RDSPostgreSQLinstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)
+!define RDSPostgreSQLinstancealt(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSPostgreSQLinstancealt*e_scale, RDSPostgreSQLinstancealt)
 !define RDSPostgreSQLinstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)
 !define RDSPostgreSQLinstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSPostgreSQLinstancealt, RDSPostgreSQLinstancealt)
 
@@ -512,6 +547,7 @@ rznRVzwa3y_Md-n7yqVCSwUFl-PFFHI_uJpa9scFnF_Q_Ks_st_oultHFyJVTlphulrLeSqdtYmVSVN-
 AWSEntityColoring(RDSSQLServerinstance)
 !define RDSSQLServerinstance(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSSQLServerinstance, RDSSQLServerinstance)
 !define RDSSQLServerinstance(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSSQLServerinstance, RDSSQLServerinstance)
+!define RDSSQLServerinstance(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSSQLServerinstance*e_scale, RDSSQLServerinstance)
 !define RDSSQLServerinstanceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSSQLServerinstance, RDSSQLServerinstance)
 !define RDSSQLServerinstanceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSSQLServerinstance, RDSSQLServerinstance)
 
@@ -525,6 +561,7 @@ fHt_sg-38G0060XYvqzTYFmw2n20cDz--tm-dy_dytdzW_v5_wH_mp_YN_tF-lS3
 AWSEntityColoring(RDSSQLServerinstancealt)
 !define RDSSQLServerinstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
 !define RDSSQLServerinstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
+!define RDSSQLServerinstancealt(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSSQLServerinstancealt*e_scale, RDSSQLServerinstancealt)
 !define RDSSQLServerinstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
 !define RDSSQLServerinstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
 
@@ -541,6 +578,7 @@ ldpv3W
 AWSEntityColoring(RDSonVMware)
 !define RDSonVMware(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSonVMware, RDSonVMware)
 !define RDSonVMware(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSonVMware, RDSonVMware)
+!define RDSonVMware(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSonVMware*e_scale, RDSonVMware)
 !define RDSonVMwareParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSonVMware, RDSonVMware)
 !define RDSonVMwareParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSonVMware, RDSonVMware)
 
@@ -555,6 +593,7 @@ MX8fVFVPcSHw5Yuj_gaiR9__lJ4HYxQHQZ6hFAQQsBj-PhUsAcrb-jAU7s5jVRmyHqhWqbzUFtFBJz-_
 AWSEntityColoring(Timestream)
 !define Timestream(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, Timestream, Timestream)
 !define Timestream(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Timestream, Timestream)
+!define Timestream(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Timestream*e_scale, Timestream)
 !define TimestreamParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, Timestream, Timestream)
 !define TimestreamParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, Timestream, Timestream)
 

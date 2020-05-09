@@ -10,5 +10,6 @@ mlSRO1NTjVmHUBFbRQbpCN-h_n_axt7zy2ANhEgdKR_uIxT_jFhN4E_spsx_RisFxlngpC_k_Exl3_tz
 AWSEntityColoring(ThinkboxFrost)
 !define ThinkboxFrost(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D86613, ThinkboxFrost, ThinkboxFrost)
 !define ThinkboxFrost(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ThinkboxFrost, ThinkboxFrost)
+!define ThinkboxFrost(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D86613, ThinkboxFrost*e_scale, ThinkboxFrost)
 !define ThinkboxFrostParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D86613, ThinkboxFrost, ThinkboxFrost)
 !define ThinkboxFrostParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D86613, ThinkboxFrost, ThinkboxFrost)

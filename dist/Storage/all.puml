@@ -12,6 +12,7 @@ tV8ZZP7Pp-VVCmUMiRM1tZcP5dhVAp-c08myzGKWM_6TvXqzzsNtHeyDXCXKJcXc87lnCqFH9z38kHS_
 AWSEntityColoring(Backup)
 !define Backup(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, Backup, Backup)
 !define Backup(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, Backup, Backup)
+!define Backup(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, Backup*e_scale, Backup)
 !define BackupParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, Backup, Backup)
 !define BackupParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, Backup, Backup)
 
@@ -26,6 +27,7 @@ RVuk8dGOxrNGWF1k2HKaxzKBU63pR0UC3r087o58FYAIlxAdfrS
 AWSEntityColoring(CloudEndureDisasterRecovery)
 !define CloudEndureDisasterRecovery(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, CloudEndureDisasterRecovery, CloudEndureDisasterRecovery)
 !define CloudEndureDisasterRecovery(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, CloudEndureDisasterRecovery, CloudEndureDisasterRecovery)
+!define CloudEndureDisasterRecovery(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, CloudEndureDisasterRecovery*e_scale, CloudEndureDisasterRecovery)
 !define CloudEndureDisasterRecoveryParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, CloudEndureDisasterRecovery, CloudEndureDisasterRecovery)
 !define CloudEndureDisasterRecoveryParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, CloudEndureDisasterRecovery, CloudEndureDisasterRecovery)
 
@@ -41,6 +43,7 @@ DmJlTZ3ZTTsl3ni0yuC5HDsB1KJTkty0a0zS4D03nYEG1mWCi-CAiNo3eN9kQXkD3o3dAoiqrINd39C3
 AWSEntityColoring(EBSSnapshot)
 !define EBSSnapshot(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, EBSSnapshot, EBSSnapshot)
 !define EBSSnapshot(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, EBSSnapshot, EBSSnapshot)
+!define EBSSnapshot(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, EBSSnapshot*e_scale, EBSSnapshot)
 !define EBSSnapshotParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, EBSSnapshot, EBSSnapshot)
 !define EBSSnapshotParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, EBSSnapshot, EBSSnapshot)
 
@@ -52,6 +55,7 @@ V4_e9SJjij92wcU_7kx7utxuiVwhxtQiFU-pppxxxBFFFlliiv_jsBp-FzeaPDed3x5RNW
 AWSEntityColoring(EBSVolume)
 !define EBSVolume(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, EBSVolume, EBSVolume)
 !define EBSVolume(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, EBSVolume, EBSVolume)
+!define EBSVolume(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, EBSVolume*e_scale, EBSVolume)
 !define EBSVolumeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, EBSVolume, EBSVolume)
 !define EBSVolumeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, EBSVolume, EBSVolume)
 
@@ -68,6 +72,7 @@ Vm
 AWSEntityColoring(EFSFilesystem)
 !define EFSFilesystem(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, EFSFilesystem, EFSFilesystem)
 !define EFSFilesystem(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, EFSFilesystem, EFSFilesystem)
+!define EFSFilesystem(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, EFSFilesystem*e_scale, EFSFilesystem)
 !define EFSFilesystemParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, EFSFilesystem, EFSFilesystem)
 !define EFSFilesystemParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, EFSFilesystem, EFSFilesystem)
 
@@ -82,6 +87,7 @@ w_tZHR_mAXSy-sV8z1jLv_WpA9hVg3hdFkAQlwDxrgfpBvhGzVreCVwvUVBa4m
 AWSEntityColoring(EFSInfrequentAccess)
 !define EFSInfrequentAccess(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, EFSInfrequentAccess, EFSInfrequentAccess)
 !define EFSInfrequentAccess(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, EFSInfrequentAccess, EFSInfrequentAccess)
+!define EFSInfrequentAccess(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, EFSInfrequentAccess*e_scale, EFSInfrequentAccess)
 !define EFSInfrequentAccessParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, EFSInfrequentAccess, EFSInfrequentAccess)
 !define EFSInfrequentAccessParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, EFSInfrequentAccess, EFSInfrequentAccess)
 
@@ -96,6 +102,7 @@ r6qyYJTNqAAVokVyVq_UV-VzDZ_ih_oTDtWJe77n7hieD_0SdIR9yz77m_47XH3D9z7bK6l_D75B-kbY
 AWSEntityColoring(EFSStandard)
 !define EFSStandard(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, EFSStandard, EFSStandard)
 !define EFSStandard(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, EFSStandard, EFSStandard)
+!define EFSStandard(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, EFSStandard*e_scale, EFSStandard)
 !define EFSStandardParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, EFSStandard, EFSStandard)
 !define EFSStandardParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, EFSStandard, EFSStandard)
 
@@ -109,6 +116,7 @@ c4pU
 AWSEntityColoring(ElasticBlockStoreEBS)
 !define ElasticBlockStoreEBS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, ElasticBlockStoreEBS, ElasticBlockStoreEBS)
 !define ElasticBlockStoreEBS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, ElasticBlockStoreEBS, ElasticBlockStoreEBS)
+!define ElasticBlockStoreEBS(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, ElasticBlockStoreEBS*e_scale, ElasticBlockStoreEBS)
 !define ElasticBlockStoreEBSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, ElasticBlockStoreEBS, ElasticBlockStoreEBS)
 !define ElasticBlockStoreEBSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, ElasticBlockStoreEBS, ElasticBlockStoreEBS)
 
@@ -123,6 +131,7 @@ kUdVmStyqCzkvuVWzyqlmU-Pdxv_Velldn-_Vtxz_Twz-mW
 AWSEntityColoring(ElasticFileSystemEFS)
 !define ElasticFileSystemEFS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, ElasticFileSystemEFS, ElasticFileSystemEFS)
 !define ElasticFileSystemEFS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, ElasticFileSystemEFS, ElasticFileSystemEFS)
+!define ElasticFileSystemEFS(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, ElasticFileSystemEFS*e_scale, ElasticFileSystemEFS)
 !define ElasticFileSystemEFSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, ElasticFileSystemEFS, ElasticFileSystemEFS)
 !define ElasticFileSystemEFSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, ElasticFileSystemEFS, ElasticFileSystemEFS)
 
@@ -135,6 +144,7 @@ WhTkaDByiZ86gCVY5PW5_oBCamoV7KKQNl4FG5-oqy0urgXcnHy3C9_K9DGx-5j-U3AFWmOWurg43ra6
 AWSEntityColoring(FSx)
 !define FSx(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, FSx, FSx)
 !define FSx(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, FSx, FSx)
+!define FSx(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, FSx*e_scale, FSx)
 !define FSxParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, FSx, FSx)
 !define FSxParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, FSx, FSx)
 
@@ -147,6 +157,7 @@ Jo6dOIHR8j0p0UGGCH_qdqqoHSbLNQFKs04uIRCt-ekxl404i9vL7Gibk1AIuyfNDUzLhZrq7--i2zVY
 AWSEntityColoring(FSxforLustre)
 !define FSxforLustre(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, FSxforLustre, FSxforLustre)
 !define FSxforLustre(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, FSxforLustre, FSxforLustre)
+!define FSxforLustre(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, FSxforLustre*e_scale, FSxforLustre)
 !define FSxforLustreParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, FSxforLustre, FSxforLustre)
 !define FSxforLustreParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, FSxforLustre, FSxforLustre)
 
@@ -159,6 +170,7 @@ t1a3qJ3uMpZoLQU73qXMG7cNW40M27_BdCrL0CX8ScXo4T46uxzb9dyGfcqaFxfjsxRj2W
 AWSEntityColoring(FSxforWindowsFileServer)
 !define FSxforWindowsFileServer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, FSxforWindowsFileServer, FSxforWindowsFileServer)
 !define FSxforWindowsFileServer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, FSxforWindowsFileServer, FSxforWindowsFileServer)
+!define FSxforWindowsFileServer(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, FSxforWindowsFileServer*e_scale, FSxforWindowsFileServer)
 !define FSxforWindowsFileServerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, FSxforWindowsFileServer, FSxforWindowsFileServer)
 !define FSxforWindowsFileServerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, FSxforWindowsFileServer, FSxforWindowsFileServer)
 
@@ -174,6 +186,7 @@ pW04H4TB-7NrQFiKbs-GkYBcntS5aIStK97dxNDiR7UoURzXo0Kx-YieqZSPQZxY_Vtw1U_d-_W1
 AWSEntityColoring(S3Bucket)
 !define S3Bucket(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, S3Bucket, S3Bucket)
 !define S3Bucket(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, S3Bucket, S3Bucket)
+!define S3Bucket(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, S3Bucket*e_scale, S3Bucket)
 !define S3BucketParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, S3Bucket, S3Bucket)
 !define S3BucketParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, S3Bucket, S3Bucket)
 
@@ -191,6 +204,7 @@ wnNKl7b_bV_n_lmzVW8
 AWSEntityColoring(S3BucketwithObjects)
 !define S3BucketwithObjects(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, S3BucketwithObjects, S3BucketwithObjects)
 !define S3BucketwithObjects(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, S3BucketwithObjects, S3BucketwithObjects)
+!define S3BucketwithObjects(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, S3BucketwithObjects*e_scale, S3BucketwithObjects)
 !define S3BucketwithObjectsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, S3BucketwithObjects, S3BucketwithObjects)
 !define S3BucketwithObjectsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, S3BucketwithObjects, S3BucketwithObjects)
 
@@ -206,6 +220,7 @@ y78-67Qw2huOESVvysFypsQkrwzar_7uE_dV_tu5
 AWSEntityColoring(S3Glacier)
 !define S3Glacier(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, S3Glacier, S3Glacier)
 !define S3Glacier(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, S3Glacier, S3Glacier)
+!define S3Glacier(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, S3Glacier*e_scale, S3Glacier)
 !define S3GlacierParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, S3Glacier, S3Glacier)
 !define S3GlacierParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, S3Glacier, S3Glacier)
 
@@ -218,6 +233,7 @@ qv_-z3vs_jch1Tfpd__WL1Qmg3XsfjGBp_8A
 AWSEntityColoring(S3GlacierArchive)
 !define S3GlacierArchive(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, S3GlacierArchive, S3GlacierArchive)
 !define S3GlacierArchive(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, S3GlacierArchive, S3GlacierArchive)
+!define S3GlacierArchive(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, S3GlacierArchive*e_scale, S3GlacierArchive)
 !define S3GlacierArchiveParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, S3GlacierArchive, S3GlacierArchive)
 !define S3GlacierArchiveParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, S3GlacierArchive, S3GlacierArchive)
 
@@ -232,6 +248,7 @@ qZsy1VqetW4
 AWSEntityColoring(S3GlacierVault)
 !define S3GlacierVault(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, S3GlacierVault, S3GlacierVault)
 !define S3GlacierVault(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, S3GlacierVault, S3GlacierVault)
+!define S3GlacierVault(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, S3GlacierVault*e_scale, S3GlacierVault)
 !define S3GlacierVaultParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, S3GlacierVault, S3GlacierVault)
 !define S3GlacierVaultParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, S3GlacierVault, S3GlacierVault)
 
@@ -244,6 +261,7 @@ pyVBxwa05dvQMy6UIrWPfq-TclT6uFDRa99ieIMPhjL6eJEZUeh5O1Efo0GxZyoeygFHZ6B0J_8SU6m0
 AWSEntityColoring(S3Object)
 !define S3Object(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, S3Object, S3Object)
 !define S3Object(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, S3Object, S3Object)
+!define S3Object(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, S3Object*e_scale, S3Object)
 !define S3ObjectParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, S3Object, S3Object)
 !define S3ObjectParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, S3Object, S3Object)
 
@@ -258,6 +276,7 @@ cH9uiL_bDnNEJv82M6IHVOTaBHV0-3c4082eUSIAyFl_cov-5iqCKpmZvgk-xV-Llo7_-SzR
 AWSEntityColoring(SimpleStorageServiceS3)
 !define SimpleStorageServiceS3(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, SimpleStorageServiceS3, SimpleStorageServiceS3)
 !define SimpleStorageServiceS3(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, SimpleStorageServiceS3, SimpleStorageServiceS3)
+!define SimpleStorageServiceS3(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, SimpleStorageServiceS3*e_scale, SimpleStorageServiceS3)
 !define SimpleStorageServiceS3Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, SimpleStorageServiceS3, SimpleStorageServiceS3)
 !define SimpleStorageServiceS3Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, SimpleStorageServiceS3, SimpleStorageServiceS3)
 
@@ -272,6 +291,7 @@ Sdx9-Mc551_DRq_dnuVpwyFv-V7y_lBo0m
 AWSEntityColoring(SnowFamilyImportExport)
 !define SnowFamilyImportExport(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, SnowFamilyImportExport, SnowFamilyImportExport)
 !define SnowFamilyImportExport(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, SnowFamilyImportExport, SnowFamilyImportExport)
+!define SnowFamilyImportExport(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, SnowFamilyImportExport*e_scale, SnowFamilyImportExport)
 !define SnowFamilyImportExportParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, SnowFamilyImportExport, SnowFamilyImportExport)
 !define SnowFamilyImportExportParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, SnowFamilyImportExport, SnowFamilyImportExport)
 
@@ -284,6 +304,7 @@ dJW_0iVv4PzViVZyUl_v-VxpEpy_n9Y07s9Pbci
 AWSEntityColoring(Snowball2)
 !define Snowball2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, Snowball2, Snowball2)
 !define Snowball2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, Snowball2, Snowball2)
+!define Snowball2(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, Snowball2*e_scale, Snowball2)
 !define Snowball2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, Snowball2, Snowball2)
 !define Snowball2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, Snowball2, Snowball2)
 
@@ -298,6 +319,7 @@ LbGRL64pfFkktszFhdzYWRd6yCt_9w-mW529NZTylkd9kS09n933Wwm2-br_hM0y6qEzsvzd9EbmacLg
 AWSEntityColoring(SnowballEdge2)
 !define SnowballEdge2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, SnowballEdge2, SnowballEdge2)
 !define SnowballEdge2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, SnowballEdge2, SnowballEdge2)
+!define SnowballEdge2(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, SnowballEdge2*e_scale, SnowballEdge2)
 !define SnowballEdge2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, SnowballEdge2, SnowballEdge2)
 !define SnowballEdge2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, SnowballEdge2, SnowballEdge2)
 
@@ -312,6 +334,7 @@ Hq7vINdvJNdzGNdzHRZ-fB3-fh3zG57xXTBs4_tQRvZjHzgtN-aFHi4e
 AWSEntityColoring(Snowmobile2)
 !define Snowmobile2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, Snowmobile2, Snowmobile2)
 !define Snowmobile2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, Snowmobile2, Snowmobile2)
+!define Snowmobile2(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, Snowmobile2*e_scale, Snowmobile2)
 !define Snowmobile2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, Snowmobile2, Snowmobile2)
 !define Snowmobile2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, Snowmobile2, Snowmobile2)
 
@@ -324,6 +347,7 @@ vOkXtjB28hs24sYab-HJbkIj_LTCloMT79RVnw-_ev_KAyfDqCUz4JVHxlKpk-ctNZ_zzpQgxlg0z-j1
 AWSEntityColoring(Storage)
 !define Storage(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, Storage, Storage)
 !define Storage(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, Storage, Storage)
+!define Storage(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, Storage*e_scale, Storage)
 !define StorageParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, Storage, Storage)
 !define StorageParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, Storage, Storage)
 
@@ -337,6 +361,7 @@ xc73fzymOhM_wUThlnnyV7vE_Gh2M9tVjUyAQ1xX3DZ2BmF8Si6GiSe_UgSdhFmpRl_sRn-YzBjFAbTz
 AWSEntityColoring(StorageGateway)
 !define StorageGateway(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, StorageGateway, StorageGateway)
 !define StorageGateway(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, StorageGateway, StorageGateway)
+!define StorageGateway(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, StorageGateway*e_scale, StorageGateway)
 !define StorageGatewayParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, StorageGateway, StorageGateway)
 !define StorageGatewayParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, StorageGateway, StorageGateway)
 
@@ -349,6 +374,7 @@ Y1q8bc2YUcin93l-L7_ITzzzzzrttttt6fWL-XhlkSXVwNtIgpre4evyzs6FOkdZOFysRUbdyS7-rMcI
 AWSEntityColoring(StorageGatewayCachedVolume)
 !define StorageGatewayCachedVolume(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, StorageGatewayCachedVolume, StorageGatewayCachedVolume)
 !define StorageGatewayCachedVolume(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, StorageGatewayCachedVolume, StorageGatewayCachedVolume)
+!define StorageGatewayCachedVolume(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, StorageGatewayCachedVolume*e_scale, StorageGatewayCachedVolume)
 !define StorageGatewayCachedVolumeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, StorageGatewayCachedVolume, StorageGatewayCachedVolume)
 !define StorageGatewayCachedVolumeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, StorageGatewayCachedVolume, StorageGatewayCachedVolume)
 
@@ -360,6 +386,7 @@ yn0TdlxpmdpK1m
 AWSEntityColoring(StorageGatewayNonCachedVolume)
 !define StorageGatewayNonCachedVolume(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, StorageGatewayNonCachedVolume, StorageGatewayNonCachedVolume)
 !define StorageGatewayNonCachedVolume(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, StorageGatewayNonCachedVolume, StorageGatewayNonCachedVolume)
+!define StorageGatewayNonCachedVolume(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, StorageGatewayNonCachedVolume*e_scale, StorageGatewayNonCachedVolume)
 !define StorageGatewayNonCachedVolumeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, StorageGatewayNonCachedVolume, StorageGatewayNonCachedVolume)
 !define StorageGatewayNonCachedVolumeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, StorageGatewayNonCachedVolume, StorageGatewayNonCachedVolume)
 
@@ -374,6 +401,7 @@ VlB_VFcNwkZduwEVE_gfWqTnBZ6LdAkdlvyNZb_gVm
 AWSEntityColoring(StorageGatewayVirtualTapeLibrary)
 !define StorageGatewayVirtualTapeLibrary(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, StorageGatewayVirtualTapeLibrary, StorageGatewayVirtualTapeLibrary)
 !define StorageGatewayVirtualTapeLibrary(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, StorageGatewayVirtualTapeLibrary, StorageGatewayVirtualTapeLibrary)
+!define StorageGatewayVirtualTapeLibrary(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, StorageGatewayVirtualTapeLibrary*e_scale, StorageGatewayVirtualTapeLibrary)
 !define StorageGatewayVirtualTapeLibraryParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, StorageGatewayVirtualTapeLibrary, StorageGatewayVirtualTapeLibrary)
 !define StorageGatewayVirtualTapeLibraryParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, StorageGatewayVirtualTapeLibrary, StorageGatewayVirtualTapeLibrary)
 

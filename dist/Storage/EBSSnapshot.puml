@@ -12,5 +12,6 @@ DmJlTZ3ZTTsl3ni0yuC5HDsB1KJTkty0a0zS4D03nYEG1mWCi-CAiNo3eN9kQXkD3o3dAoiqrINd39C3
 AWSEntityColoring(EBSSnapshot)
 !define EBSSnapshot(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, EBSSnapshot, EBSSnapshot)
 !define EBSSnapshot(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, EBSSnapshot, EBSSnapshot)
+!define EBSSnapshot(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, EBSSnapshot*e_scale, EBSSnapshot)
 !define EBSSnapshotParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, EBSSnapshot, EBSSnapshot)
 !define EBSSnapshotParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, EBSSnapshot, EBSSnapshot)

@@ -12,5 +12,6 @@ SBCuC3Iwp1g_xeHsD5NHqz9jAVR4MMbykbVcZnzObs_Nvf6PuIPq6ixpzxuKtv8KKCQq4Ni19T-YUpYe
 AWSEntityColoring(ShieldShieldAdvanced)
 !define ShieldShieldAdvanced(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #D6242D, ShieldShieldAdvanced, ShieldShieldAdvanced)
 !define ShieldShieldAdvanced(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, ShieldShieldAdvanced, ShieldShieldAdvanced)
+!define ShieldShieldAdvanced(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #D6242D, ShieldShieldAdvanced*e_scale, ShieldShieldAdvanced)
 !define ShieldShieldAdvancedParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #D6242D, ShieldShieldAdvanced, ShieldShieldAdvanced)
 !define ShieldShieldAdvancedParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #D6242D, ShieldShieldAdvanced, ShieldShieldAdvanced)

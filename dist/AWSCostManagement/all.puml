@@ -12,6 +12,7 @@ xJ0UlqV-vt_U0m
 AWSEntityColoring(Budgets)
 !define Budgets(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, Budgets, Budgets)
 !define Budgets(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, Budgets, Budgets)
+!define Budgets(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, Budgets*e_scale, Budgets)
 !define BudgetsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, Budgets, Budgets)
 !define BudgetsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, Budgets, Budgets)
 
@@ -26,6 +27,7 @@ HaF6c0ESyXaAeYg0Pgq1zdscjmExqcu3dFHL6P5PUHi0_3CVHpAGMB7P695h0FdOVnQDsm16VEJrqzWn
 AWSEntityColoring(CostExplorer)
 !define CostExplorer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, CostExplorer, CostExplorer)
 !define CostExplorer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, CostExplorer, CostExplorer)
+!define CostExplorer(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, CostExplorer*e_scale, CostExplorer)
 !define CostExplorerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, CostExplorer, CostExplorer)
 !define CostExplorerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, CostExplorer, CostExplorer)
 
@@ -39,6 +41,7 @@ sZp-vGdECTzVZydZd_9buw530Ay9ds5cuqqIEVmd7t_4PZRc3XRQFtuSnsyLi0bxFjsNxRkFkKV7Uzxg
 AWSEntityColoring(CostManagement)
 !define CostManagement(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, CostManagement, CostManagement)
 !define CostManagement(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, CostManagement, CostManagement)
+!define CostManagement(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, CostManagement*e_scale, CostManagement)
 !define CostManagementParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, CostManagement, CostManagement)
 !define CostManagementParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, CostManagement, CostManagement)
 
@@ -52,6 +55,7 @@ j-I6JzGhwsV83bq-AFNI-er5phxr_S_g__FzwppFu6jvlfPty-VvFByUvi_FpoJGX-TtqeVtX-GFxo_f
 AWSEntityColoring(CostandUsageReport)
 !define CostandUsageReport(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, CostandUsageReport, CostandUsageReport)
 !define CostandUsageReport(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, CostandUsageReport, CostandUsageReport)
+!define CostandUsageReport(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, CostandUsageReport*e_scale, CostandUsageReport)
 !define CostandUsageReportParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, CostandUsageReport, CostandUsageReport)
 !define CostandUsageReportParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, CostandUsageReport, CostandUsageReport)
 
@@ -65,6 +69,7 @@ L-B-5Tdjslwf8JwBzkzOhCdp0u7SSNwvu_pqZUS_dby_LxDcBG4
 AWSEntityColoring(ReservedInstanceReporting)
 !define ReservedInstanceReporting(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, ReservedInstanceReporting, ReservedInstanceReporting)
 !define ReservedInstanceReporting(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, ReservedInstanceReporting, ReservedInstanceReporting)
+!define ReservedInstanceReporting(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, ReservedInstanceReporting*e_scale, ReservedInstanceReporting)
 !define ReservedInstanceReportingParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, ReservedInstanceReporting, ReservedInstanceReporting)
 !define ReservedInstanceReportingParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, ReservedInstanceReporting, ReservedInstanceReporting)
 
@@ -81,6 +86,7 @@ mygWzNBzEVwCrla4ptE_rkZEkN-w_6RVMSpHtByt--Rw61dpew1X-4NwfWCgUSnlbtG_taZEvZQmZsu6
 AWSEntityColoring(SavingsPlans)
 !define SavingsPlans(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, SavingsPlans, SavingsPlans)
 !define SavingsPlans(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, SavingsPlans, SavingsPlans)
+!define SavingsPlans(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, SavingsPlans*e_scale, SavingsPlans)
 !define SavingsPlansParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, SavingsPlans, SavingsPlans)
 !define SavingsPlansParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, SavingsPlans, SavingsPlans)
 

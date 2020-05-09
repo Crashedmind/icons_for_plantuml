@@ -12,6 +12,7 @@ yR8zFpy_lt_czKF6blnJkBcv-G8
 AWSEntityColoring(FreeRTOS)
 !define FreeRTOS(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, FreeRTOS, FreeRTOS)
 !define FreeRTOS(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, FreeRTOS, FreeRTOS)
+!define FreeRTOS(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, FreeRTOS*e_scale, FreeRTOS)
 !define FreeRTOSParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, FreeRTOS, FreeRTOS)
 !define FreeRTOSParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, FreeRTOS, FreeRTOS)
 
@@ -25,6 +26,7 @@ G-3z_ad6PnzagtzMd03NsQ-s7qOtqfoMbpvJDVFMr_ZTUfVbnPk-4dNpj-y__VVPvLd-kno_NENbLQqT
 AWSEntityColoring(InternetofThings)
 !define InternetofThings(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, InternetofThings, InternetofThings)
 !define InternetofThings(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, InternetofThings, InternetofThings)
+!define InternetofThings(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, InternetofThings*e_scale, InternetofThings)
 !define InternetofThingsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, InternetofThings, InternetofThings)
 !define InternetofThingsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, InternetofThings, InternetofThings)
 
@@ -39,6 +41,7 @@ WiiS-RuQxrmlWFCmoBikLTXmJGcQ6uBenUeXtBB5Dd18DdTqhFn0GNgE1kP28zh9C9-43yy9UAoXV4Ba
 AWSEntityColoring(IoT1Click)
 !define IoT1Click(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoT1Click, IoT1Click)
 !define IoT1Click(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoT1Click, IoT1Click)
+!define IoT1Click(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoT1Click*e_scale, IoT1Click)
 !define IoT1ClickParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoT1Click, IoT1Click)
 !define IoT1ClickParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoT1Click, IoT1Click)
 
@@ -52,6 +55,7 @@ VGW00C003FEt3aHciDzM_RP_Epyxlxi_kxzvF_P-xVtC-xt_8__N_i_ytyiFoI_9JyjloO_9hydFoU_d
 AWSEntityColoring(IoTAction)
 !define IoTAction(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAction, IoTAction)
 !define IoTAction(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAction, IoTAction)
+!define IoTAction(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAction*e_scale, IoTAction)
 !define IoTActionParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAction, IoTAction)
 !define IoTActionParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAction, IoTAction)
 
@@ -67,6 +71,7 @@ fpxqFhruGlpyoFeHSS7JTiNb-R26_CxvDOxiNyrR3Cd2FwA2qphzB_W-uey8zhornxAPTwQ7OW_zrVpA
 AWSEntityColoring(IoTActuator)
 !define IoTActuator(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTActuator, IoTActuator)
 !define IoTActuator(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTActuator, IoTActuator)
+!define IoTActuator(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTActuator*e_scale, IoTActuator)
 !define IoTActuatorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTActuator, IoTActuator)
 !define IoTActuatorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTActuator, IoTActuator)
 
@@ -82,6 +87,7 @@ wSa1gEZh_lFf15xMVM616xjRUKSWTN5W-e1yOHwGcz7i-xErr9_o3m
 AWSEntityColoring(IoTAlexaEnabledDevice)
 !define IoTAlexaEnabledDevice(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAlexaEnabledDevice, IoTAlexaEnabledDevice)
 !define IoTAlexaEnabledDevice(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAlexaEnabledDevice, IoTAlexaEnabledDevice)
+!define IoTAlexaEnabledDevice(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAlexaEnabledDevice*e_scale, IoTAlexaEnabledDevice)
 !define IoTAlexaEnabledDeviceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAlexaEnabledDevice, IoTAlexaEnabledDevice)
 !define IoTAlexaEnabledDeviceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAlexaEnabledDevice, IoTAlexaEnabledDevice)
 
@@ -97,6 +103,7 @@ r_hxkMvF
 AWSEntityColoring(IoTAlexaSkill)
 !define IoTAlexaSkill(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAlexaSkill, IoTAlexaSkill)
 !define IoTAlexaSkill(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAlexaSkill, IoTAlexaSkill)
+!define IoTAlexaSkill(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAlexaSkill*e_scale, IoTAlexaSkill)
 !define IoTAlexaSkillParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAlexaSkill, IoTAlexaSkill)
 !define IoTAlexaSkillParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAlexaSkill, IoTAlexaSkill)
 
@@ -112,6 +119,7 @@ OoJ-Rd-IIItu8kRuMVFy5_ood3Vf8F_AF_LVA__xwxU_VpBtxrd-65XdmNx-ziJQtjNra-lyJ-hHzTk3
 AWSEntityColoring(IoTAlexaVoiceService)
 !define IoTAlexaVoiceService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAlexaVoiceService, IoTAlexaVoiceService)
 !define IoTAlexaVoiceService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAlexaVoiceService, IoTAlexaVoiceService)
+!define IoTAlexaVoiceService(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAlexaVoiceService*e_scale, IoTAlexaVoiceService)
 !define IoTAlexaVoiceServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAlexaVoiceService, IoTAlexaVoiceService)
 !define IoTAlexaVoiceServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAlexaVoiceService, IoTAlexaVoiceService)
 
@@ -127,6 +135,7 @@ hmvTtgW7NolSGk_L0MW6tKFAJ2dyMk6Fj7fhwne-hOynUWEiwlbCgJMCIzQNKZzGk2_tq3zNl_HBlmC
 AWSEntityColoring(IoTAnalytics)
 !define IoTAnalytics(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAnalytics, IoTAnalytics)
 !define IoTAnalytics(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAnalytics, IoTAnalytics)
+!define IoTAnalytics(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAnalytics*e_scale, IoTAnalytics)
 !define IoTAnalyticsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAnalytics, IoTAnalytics)
 !define IoTAnalyticsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAnalytics, IoTAnalytics)
 
@@ -141,6 +150,7 @@ dyNwNUmVnVvLx9_5_bsS7uhpIt5-AirljEByM9nV_-yVDVrL_nNtn-h-Mj-VluzV
 AWSEntityColoring(IoTAnalyticsChannel)
 !define IoTAnalyticsChannel(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAnalyticsChannel, IoTAnalyticsChannel)
 !define IoTAnalyticsChannel(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAnalyticsChannel, IoTAnalyticsChannel)
+!define IoTAnalyticsChannel(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAnalyticsChannel*e_scale, IoTAnalyticsChannel)
 !define IoTAnalyticsChannelParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAnalyticsChannel, IoTAnalyticsChannel)
 !define IoTAnalyticsChannelParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAnalyticsChannel, IoTAnalyticsChannel)
 
@@ -153,6 +163,7 @@ xXyjs-V_u__GFdLkr9VSt5kdnwfsNpViaHblwJcJNzo7LsIlhshtv6KAzx4
 AWSEntityColoring(IoTAnalyticsDataSet)
 !define IoTAnalyticsDataSet(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAnalyticsDataSet, IoTAnalyticsDataSet)
 !define IoTAnalyticsDataSet(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAnalyticsDataSet, IoTAnalyticsDataSet)
+!define IoTAnalyticsDataSet(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAnalyticsDataSet*e_scale, IoTAnalyticsDataSet)
 !define IoTAnalyticsDataSetParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAnalyticsDataSet, IoTAnalyticsDataSet)
 !define IoTAnalyticsDataSetParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAnalyticsDataSet, IoTAnalyticsDataSet)
 
@@ -166,6 +177,7 @@ cJODiKpftZp6FZArwnk6kbL-Xg2q9RBm6s6CZipMxChNM1z3UMy10CIwTaChVuButlgBS8_OMtykc2eV
 AWSEntityColoring(IoTAnalyticsDataStore)
 !define IoTAnalyticsDataStore(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAnalyticsDataStore, IoTAnalyticsDataStore)
 !define IoTAnalyticsDataStore(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAnalyticsDataStore, IoTAnalyticsDataStore)
+!define IoTAnalyticsDataStore(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAnalyticsDataStore*e_scale, IoTAnalyticsDataStore)
 !define IoTAnalyticsDataStoreParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAnalyticsDataStore, IoTAnalyticsDataStore)
 !define IoTAnalyticsDataStoreParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAnalyticsDataStore, IoTAnalyticsDataStore)
 
@@ -178,6 +190,7 @@ b_EtSFZX-wSGEdp_E7p_kZnN
 AWSEntityColoring(IoTAnalyticsNotebook)
 !define IoTAnalyticsNotebook(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAnalyticsNotebook, IoTAnalyticsNotebook)
 !define IoTAnalyticsNotebook(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAnalyticsNotebook, IoTAnalyticsNotebook)
+!define IoTAnalyticsNotebook(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAnalyticsNotebook*e_scale, IoTAnalyticsNotebook)
 !define IoTAnalyticsNotebookParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAnalyticsNotebook, IoTAnalyticsNotebook)
 !define IoTAnalyticsNotebookParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAnalyticsNotebook, IoTAnalyticsNotebook)
 
@@ -189,6 +202,7 @@ U2IIiNx_UxlzfwBzP_nnhxtsj1dV_ltp6KE_V_t_hzx_P-V_ktVzyCkKKci
 AWSEntityColoring(IoTAnalyticsPipeline)
 !define IoTAnalyticsPipeline(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTAnalyticsPipeline, IoTAnalyticsPipeline)
 !define IoTAnalyticsPipeline(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAnalyticsPipeline, IoTAnalyticsPipeline)
+!define IoTAnalyticsPipeline(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTAnalyticsPipeline*e_scale, IoTAnalyticsPipeline)
 !define IoTAnalyticsPipelineParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTAnalyticsPipeline, IoTAnalyticsPipeline)
 !define IoTAnalyticsPipelineParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTAnalyticsPipeline, IoTAnalyticsPipeline)
 
@@ -203,6 +217,7 @@ dH-oz_x8vJ4vN-TixBsHX9JR12GjUOEtF7ej3weTomUoDB_fTTFqQNuQBRzlUOtI-NV3DklX_x3VJv__
 AWSEntityColoring(IoTBank)
 !define IoTBank(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTBank, IoTBank)
 !define IoTBank(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTBank, IoTBank)
+!define IoTBank(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTBank*e_scale, IoTBank)
 !define IoTBankParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTBank, IoTBank)
 !define IoTBankParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTBank, IoTBank)
 
@@ -218,6 +233,7 @@ EUOZD_rq__xdV_3xyMVn3m
 AWSEntityColoring(IoTBicycle)
 !define IoTBicycle(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTBicycle, IoTBicycle)
 !define IoTBicycle(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTBicycle, IoTBicycle)
+!define IoTBicycle(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTBicycle*e_scale, IoTBicycle)
 !define IoTBicycleParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTBicycle, IoTBicycle)
 !define IoTBicycleParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTBicycle, IoTBicycle)
 
@@ -230,6 +246,7 @@ j68OvZlRAm3Vjj_Ftyq6i_cd-vTBzoy_lqn-ViNxKxo_nVTJVR-r_wF-VvN_p-h_NOqVfVRjYF_L_AcQ
 AWSEntityColoring(IoTButton)
 !define IoTButton(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTButton, IoTButton)
 !define IoTButton(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTButton, IoTButton)
+!define IoTButton(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTButton*e_scale, IoTButton)
 !define IoTButtonParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTButton, IoTButton)
 !define IoTButtonParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTButton, IoTButton)
 
@@ -245,6 +262,7 @@ rbe2ca4hFwPodCVVG8EKOo1309l-lVPpKi6h9JNn4x_Al_kzMbs3E2d_CZPVQfgrolzE_Al-rHXL_rj-
 AWSEntityColoring(IoTCamera)
 !define IoTCamera(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTCamera, IoTCamera)
 !define IoTCamera(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCamera, IoTCamera)
+!define IoTCamera(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCamera*e_scale, IoTCamera)
 !define IoTCameraParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTCamera, IoTCamera)
 !define IoTCameraParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTCamera, IoTCamera)
 
@@ -259,6 +277,7 @@ wzVVr7zyU__sxVtZj_UlkNy6LDLo_spx8-tbM_lt__ut_3_-NNm1
 AWSEntityColoring(IoTCar)
 !define IoTCar(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTCar, IoTCar)
 !define IoTCar(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCar, IoTCar)
+!define IoTCar(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCar*e_scale, IoTCar)
 !define IoTCarParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTCar, IoTCar)
 !define IoTCarParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTCar, IoTCar)
 
@@ -273,6 +292,7 @@ H-pKVngjsV56RTL-p_FBjv_Vllty-Etdrpm_0xDYvFpi-TFevLlFx__zR_Z_-7Vn1G
 AWSEntityColoring(IoTCart)
 !define IoTCart(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTCart, IoTCart)
 !define IoTCart(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCart, IoTCart)
+!define IoTCart(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCart*e_scale, IoTCart)
 !define IoTCartParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTCart, IoTCart)
 !define IoTCartParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTCart, IoTCart)
 
@@ -289,6 +309,7 @@ RtGAL_d-UE3N-4dPsrB9ytmnUJlhen_7Nm
 AWSEntityColoring(IoTCertificateManager)
 !define IoTCertificateManager(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTCertificateManager, IoTCertificateManager)
 !define IoTCertificateManager(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCertificateManager, IoTCertificateManager)
+!define IoTCertificateManager(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCertificateManager*e_scale, IoTCertificateManager)
 !define IoTCertificateManagerParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTCertificateManager, IoTCertificateManager)
 !define IoTCertificateManagerParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTCertificateManager, IoTCertificateManager)
 
@@ -304,6 +325,7 @@ bld-EldldD_UFp--VtxDvsVWyHpv_1nVJRsLTy_l__mt_Z_-MVm7
 AWSEntityColoring(IoTCoffeePot)
 !define IoTCoffeePot(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTCoffeePot, IoTCoffeePot)
 !define IoTCoffeePot(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCoffeePot, IoTCoffeePot)
+!define IoTCoffeePot(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCoffeePot*e_scale, IoTCoffeePot)
 !define IoTCoffeePotParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTCoffeePot, IoTCoffeePot)
 !define IoTCoffeePotParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTCoffeePot, IoTCoffeePot)
 
@@ -318,6 +340,7 @@ bqoUYqHtmrOVg-hflzhgPSw-X85ywal1UOu6s3VzNDsf1A1eC1_RF8qpFj2y1841Od1Tqy_z_oOzlazl
 AWSEntityColoring(IoTCore)
 !define IoTCore(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTCore, IoTCore)
 !define IoTCore(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCore, IoTCore)
+!define IoTCore(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTCore*e_scale, IoTCore)
 !define IoTCoreParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTCore, IoTCore)
 !define IoTCoreParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTCore, IoTCore)
 
@@ -333,6 +356,7 @@ V4mhhDYHlSyiR9JDHzxxeZWnxvSdzKly0W
 AWSEntityColoring(IoTDesiredState)
 !define IoTDesiredState(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTDesiredState, IoTDesiredState)
 !define IoTDesiredState(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTDesiredState, IoTDesiredState)
+!define IoTDesiredState(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTDesiredState*e_scale, IoTDesiredState)
 !define IoTDesiredStateParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTDesiredState, IoTDesiredState)
 !define IoTDesiredStateParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTDesiredState, IoTDesiredState)
 
@@ -347,6 +371,7 @@ ClPhF_fzA4XE33QLmOR1yhjF74FLUTMuFl6-Ufv3wdo9LKN-vBaFAJjlaritVcks1u2zyuREstjlR1f8
 AWSEntityColoring(IoTDeviceDefender)
 !define IoTDeviceDefender(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTDeviceDefender, IoTDeviceDefender)
 !define IoTDeviceDefender(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTDeviceDefender, IoTDeviceDefender)
+!define IoTDeviceDefender(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTDeviceDefender*e_scale, IoTDeviceDefender)
 !define IoTDeviceDefenderParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTDeviceDefender, IoTDeviceDefender)
 !define IoTDeviceDefenderParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTDeviceDefender, IoTDeviceDefender)
 
@@ -361,6 +386,7 @@ tly_ALuE1D_lV_8F
 AWSEntityColoring(IoTDeviceGateway)
 !define IoTDeviceGateway(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTDeviceGateway, IoTDeviceGateway)
 !define IoTDeviceGateway(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTDeviceGateway, IoTDeviceGateway)
+!define IoTDeviceGateway(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTDeviceGateway*e_scale, IoTDeviceGateway)
 !define IoTDeviceGatewayParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTDeviceGateway, IoTDeviceGateway)
 !define IoTDeviceGatewayParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTDeviceGateway, IoTDeviceGateway)
 
@@ -378,6 +404,7 @@ fpwV-dpgywdFfpwV-ki6_W4
 AWSEntityColoring(IoTDeviceManagement)
 !define IoTDeviceManagement(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTDeviceManagement, IoTDeviceManagement)
 !define IoTDeviceManagement(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTDeviceManagement, IoTDeviceManagement)
+!define IoTDeviceManagement(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTDeviceManagement*e_scale, IoTDeviceManagement)
 !define IoTDeviceManagementParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTDeviceManagement, IoTDeviceManagement)
 !define IoTDeviceManagementParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTDeviceManagement, IoTDeviceManagement)
 
@@ -392,6 +419,7 @@ tByra00fgvzMTFdFgLbvNra_0n6mpY-aYDKVa0bZzKEAf_a5G7n3_HpyM-gle8tVV3ywl_z-zVxrxrSX
 AWSEntityColoring(IoTDoorLock)
 !define IoTDoorLock(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTDoorLock, IoTDoorLock)
 !define IoTDoorLock(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTDoorLock, IoTDoorLock)
+!define IoTDoorLock(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTDoorLock*e_scale, IoTDoorLock)
 !define IoTDoorLockParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTDoorLock, IoTDoorLock)
 !define IoTDoorLockParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTDoorLock, IoTDoorLock)
 
@@ -405,6 +433,7 @@ w9T6uO0AdPO_gqSzTzS0DF9Xj60MqGqHPbhOCF-fJ3jOSrv-bQuFqJABUXOmz0DDDMW2i_9ZYzgNll5h
 AWSEntityColoring(IoTEcho)
 !define IoTEcho(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTEcho, IoTEcho)
 !define IoTEcho(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTEcho, IoTEcho)
+!define IoTEcho(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTEcho*e_scale, IoTEcho)
 !define IoTEchoParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTEcho, IoTEcho)
 !define IoTEchoParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTEcho, IoTEcho)
 
@@ -419,6 +448,7 @@ lvVUvyV1y_dv8OqgzjwH_VpyEinVZy_FRvxVtuqVVhoFZu_V
 AWSEntityColoring(IoTEvents)
 !define IoTEvents(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTEvents, IoTEvents)
 !define IoTEvents(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTEvents, IoTEvents)
+!define IoTEvents(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTEvents*e_scale, IoTEvents)
 !define IoTEventsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTEvents, IoTEvents)
 !define IoTEventsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTEvents, IoTEvents)
 
@@ -433,6 +463,7 @@ fa_iyvVCyOJRpPQjduI8Mtv0__8j_Tktzu_Vthzo_mnWDixSFzlQrJH_Q__-t_-6xuz_5vy
 AWSEntityColoring(IoTFactory)
 !define IoTFactory(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTFactory, IoTFactory)
 !define IoTFactory(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTFactory, IoTFactory)
+!define IoTFactory(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTFactory*e_scale, IoTFactory)
 !define IoTFactoryParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTFactory, IoTFactory)
 !define IoTFactoryParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTFactory, IoTFactory)
 
@@ -445,6 +476,7 @@ qkKTZBHVsLla941YVVRACS5dudMzynb_vqsj_433S0C
 AWSEntityColoring(IoTFireTV)
 !define IoTFireTV(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTFireTV, IoTFireTV)
 !define IoTFireTV(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTFireTV, IoTFireTV)
+!define IoTFireTV(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTFireTV*e_scale, IoTFireTV)
 !define IoTFireTVParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTFireTV, IoTFireTV)
 !define IoTFireTVParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTFireTV, IoTFireTV)
 
@@ -457,6 +489,7 @@ q-bqEcC
 AWSEntityColoring(IoTFireTVStick)
 !define IoTFireTVStick(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTFireTVStick, IoTFireTVStick)
 !define IoTFireTVStick(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTFireTVStick, IoTFireTVStick)
+!define IoTFireTVStick(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTFireTVStick*e_scale, IoTFireTVStick)
 !define IoTFireTVStickParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTFireTVStick, IoTFireTVStick)
 !define IoTFireTVStickParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTFireTVStick, IoTFireTVStick)
 
@@ -470,6 +503,7 @@ xZ_EL2__GeD4_apzFQZ_pFVVruqVruzVruwVl_d7jVEtw-UFryzVxVmP03FBTluifqlSwhNpzvz_nVhn
 AWSEntityColoring(IoTGeneric)
 !define IoTGeneric(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTGeneric, IoTGeneric)
 !define IoTGeneric(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTGeneric, IoTGeneric)
+!define IoTGeneric(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTGeneric*e_scale, IoTGeneric)
 !define IoTGenericParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTGeneric, IoTGeneric)
 !define IoTGenericParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTGeneric, IoTGeneric)
 
@@ -484,6 +518,7 @@ SoYWazzASLpJo7oCuNOz3vvGdAx0GaVoc6BE-C9CilWdSkVEPm
 AWSEntityColoring(IoTGreengrass)
 !define IoTGreengrass(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTGreengrass, IoTGreengrass)
 !define IoTGreengrass(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTGreengrass, IoTGreengrass)
+!define IoTGreengrass(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTGreengrass*e_scale, IoTGreengrass)
 !define IoTGreengrassParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTGreengrass, IoTGreengrass)
 !define IoTGreengrassParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTGreengrass, IoTGreengrass)
 
@@ -495,6 +530,7 @@ ZlS-h_DnQ7xNfppFMJpcgHmwK86moq_EyW6e--uplM-VM0SG1zhzv_7h0E80i_mbdw6CUMl_3VDdMp_h
 AWSEntityColoring(IoTGreengrassConnector)
 !define IoTGreengrassConnector(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTGreengrassConnector, IoTGreengrassConnector)
 !define IoTGreengrassConnector(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTGreengrassConnector, IoTGreengrassConnector)
+!define IoTGreengrassConnector(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTGreengrassConnector*e_scale, IoTGreengrassConnector)
 !define IoTGreengrassConnectorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTGreengrassConnector, IoTGreengrassConnector)
 !define IoTGreengrassConnectorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTGreengrassConnector, IoTGreengrassConnector)
 
@@ -508,6 +544,7 @@ NGeVlZ-N-isQ3xoB1ow9xY_res_zVbpgrogQMtxMpx9VHU_d3m
 AWSEntityColoring(IoTHTTP2Protocol)
 !define IoTHTTP2Protocol(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTHTTP2Protocol, IoTHTTP2Protocol)
 !define IoTHTTP2Protocol(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTHTTP2Protocol, IoTHTTP2Protocol)
+!define IoTHTTP2Protocol(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTHTTP2Protocol*e_scale, IoTHTTP2Protocol)
 !define IoTHTTP2ProtocolParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTHTTP2Protocol, IoTHTTP2Protocol)
 !define IoTHTTP2ProtocolParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTHTTP2Protocol, IoTHTTP2Protocol)
 
@@ -520,6 +557,7 @@ uvVCzCFhgF_r-WVikc_xmtLVXsrxIhMu59UgezPFt_QdY-__pVsjUZcD5x-vFmvyVspjhp7WD_Vd_dMQ
 AWSEntityColoring(IoTHTTPProtocol)
 !define IoTHTTPProtocol(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTHTTPProtocol, IoTHTTPProtocol)
 !define IoTHTTPProtocol(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTHTTPProtocol, IoTHTTPProtocol)
+!define IoTHTTPProtocol(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTHTTPProtocol*e_scale, IoTHTTPProtocol)
 !define IoTHTTPProtocolParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTHTTPProtocol, IoTHTTPProtocol)
 !define IoTHTTPProtocolParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTHTTPProtocol, IoTHTTPProtocol)
 
@@ -534,6 +572,7 @@ HIk-F63o4o1x_VvlsTy_vU_VilUFsVlN_Frp_luzltx8hr_owwVy-Ys_ViolN_Fhvpm_
 AWSEntityColoring(IoTHardwareBoard)
 !define IoTHardwareBoard(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTHardwareBoard, IoTHardwareBoard)
 !define IoTHardwareBoard(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTHardwareBoard, IoTHardwareBoard)
+!define IoTHardwareBoard(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTHardwareBoard*e_scale, IoTHardwareBoard)
 !define IoTHardwareBoardParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTHardwareBoard, IoTHardwareBoard)
 !define IoTHardwareBoardParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTHardwareBoard, IoTHardwareBoard)
 
@@ -548,6 +587,7 @@ urUFP_8kyKZwJvX__2J_s-Tltpv__FRvAy-VaVN7N-VFVhjaGxzr_lxV_uRruz_55m
 AWSEntityColoring(IoTHouse)
 !define IoTHouse(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTHouse, IoTHouse)
 !define IoTHouse(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTHouse, IoTHouse)
+!define IoTHouse(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTHouse*e_scale, IoTHouse)
 !define IoTHouseParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTHouse, IoTHouse)
 !define IoTHouseParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTHouse, IoTHouse)
 
@@ -564,6 +604,7 @@ y_lQ_M7z_h9-Vrg_lwtV7zVlh-ltvtNy0m
 AWSEntityColoring(IoTLambdaFunction)
 !define IoTLambdaFunction(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTLambdaFunction, IoTLambdaFunction)
 !define IoTLambdaFunction(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTLambdaFunction, IoTLambdaFunction)
+!define IoTLambdaFunction(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTLambdaFunction*e_scale, IoTLambdaFunction)
 !define IoTLambdaFunctionParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTLambdaFunction, IoTLambdaFunction)
 !define IoTLambdaFunctionParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTLambdaFunction, IoTLambdaFunction)
 
@@ -578,6 +619,7 @@ Uso8Q1B_T-LhchZMrg_XMtjW09s97o4uwHT182VtBnIKYNzv_tPz_tXz_vhtpm1KrVB-sLwFLFZg_ltB
 AWSEntityColoring(IoTLightbulb)
 !define IoTLightbulb(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTLightbulb, IoTLightbulb)
 !define IoTLightbulb(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTLightbulb, IoTLightbulb)
+!define IoTLightbulb(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTLightbulb*e_scale, IoTLightbulb)
 !define IoTLightbulbParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTLightbulb, IoTLightbulb)
 !define IoTLightbulbParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTLightbulb, IoTLightbulb)
 
@@ -591,6 +633,7 @@ ZHBC1UMRtaP5A4LkUaTHbOBv1vallR_ovcYVYQPZxOlnoWE77qspiFBd-U7i-sILhdqVnCgBe3k0Elt7
 AWSEntityColoring(IoTMQTTProtocol)
 !define IoTMQTTProtocol(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTMQTTProtocol, IoTMQTTProtocol)
 !define IoTMQTTProtocol(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTMQTTProtocol, IoTMQTTProtocol)
+!define IoTMQTTProtocol(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTMQTTProtocol*e_scale, IoTMQTTProtocol)
 !define IoTMQTTProtocolParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTMQTTProtocol, IoTMQTTProtocol)
 !define IoTMQTTProtocolParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTMQTTProtocol, IoTMQTTProtocol)
 
@@ -604,6 +647,7 @@ wzVyC9qtTltChj_v_SDh_yNlNxy_xm
 AWSEntityColoring(IoTMedicalEmergency)
 !define IoTMedicalEmergency(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTMedicalEmergency, IoTMedicalEmergency)
 !define IoTMedicalEmergency(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTMedicalEmergency, IoTMedicalEmergency)
+!define IoTMedicalEmergency(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTMedicalEmergency*e_scale, IoTMedicalEmergency)
 !define IoTMedicalEmergencyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTMedicalEmergency, IoTMedicalEmergency)
 !define IoTMedicalEmergencyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTMedicalEmergency, IoTMedicalEmergency)
 
@@ -619,6 +663,7 @@ _JmEVsN39daJsunTeNI92u-8pkVRJXliRQJ7qP7kEWeShorQzFQ6kVPYjQirdvWzpHlJaDP1ptYuTBEx
 AWSEntityColoring(IoTOverTheAirUpdate)
 !define IoTOverTheAirUpdate(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTOverTheAirUpdate, IoTOverTheAirUpdate)
 !define IoTOverTheAirUpdate(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTOverTheAirUpdate, IoTOverTheAirUpdate)
+!define IoTOverTheAirUpdate(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTOverTheAirUpdate*e_scale, IoTOverTheAirUpdate)
 !define IoTOverTheAirUpdateParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTOverTheAirUpdate, IoTOverTheAirUpdate)
 !define IoTOverTheAirUpdateParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTOverTheAirUpdate, IoTOverTheAirUpdate)
 
@@ -633,6 +678,7 @@ AxyUXS9sNutVxLywWoMcMV8PKxlzg_HVrsBYUh9_dkpVmdHJplVlis6d4Vh6pp-_Vtua0VYuYGFns-Vd
 AWSEntityColoring(IoTPoliceEmergency)
 !define IoTPoliceEmergency(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTPoliceEmergency, IoTPoliceEmergency)
 !define IoTPoliceEmergency(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTPoliceEmergency, IoTPoliceEmergency)
+!define IoTPoliceEmergency(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTPoliceEmergency*e_scale, IoTPoliceEmergency)
 !define IoTPoliceEmergencyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTPoliceEmergency, IoTPoliceEmergency)
 !define IoTPoliceEmergencyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTPoliceEmergency, IoTPoliceEmergency)
 
@@ -648,6 +694,7 @@ Sbrz08LxJ9rSamIwgfYNYzGZCwFg-2RwrnC
 AWSEntityColoring(IoTPolicy)
 !define IoTPolicy(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTPolicy, IoTPolicy)
 !define IoTPolicy(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTPolicy, IoTPolicy)
+!define IoTPolicy(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTPolicy*e_scale, IoTPolicy)
 !define IoTPolicyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTPolicy, IoTPolicy)
 !define IoTPolicyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTPolicy, IoTPolicy)
 
@@ -660,6 +707,7 @@ s1elfNtzWbCnyVurVkhpOwU-ulDR_5BfptdR5wV9-tDUEtwM92ovAwq_f_T1NlP3Dy-qwVNzO10olL-s
 AWSEntityColoring(IoTReportedState)
 !define IoTReportedState(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTReportedState, IoTReportedState)
 !define IoTReportedState(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTReportedState, IoTReportedState)
+!define IoTReportedState(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTReportedState*e_scale, IoTReportedState)
 !define IoTReportedStateParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTReportedState, IoTReportedState)
 !define IoTReportedStateParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTReportedState, IoTReportedState)
 
@@ -673,6 +721,7 @@ BFKYOYCBd50vJ4IM-wPgvcwcAcsvF-47z3-y_-__-_zUx-c3B9UZlCXOkWL4-lxvnnCaIouBDbHbjAm2
 AWSEntityColoring(IoTRule)
 !define IoTRule(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTRule, IoTRule)
 !define IoTRule(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTRule, IoTRule)
+!define IoTRule(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTRule*e_scale, IoTRule)
 !define IoTRuleParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTRule, IoTRule)
 !define IoTRuleParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTRule, IoTRule)
 
@@ -687,6 +736,7 @@ _JezDxRND_Mn5HH4GFtO3yZZjhRwWb1lMWuEX7i0VkNznMF1G-_q4jmC-RKNZJ5CxjGUzAmlkQnU-mw_
 AWSEntityColoring(IoTSensor)
 !define IoTSensor(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTSensor, IoTSensor)
 !define IoTSensor(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTSensor, IoTSensor)
+!define IoTSensor(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTSensor*e_scale, IoTSensor)
 !define IoTSensorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTSensor, IoTSensor)
 !define IoTSensorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTSensor, IoTSensor)
 
@@ -700,6 +750,7 @@ GROvDtgdV2s2qfTxKSRTMNkrdz1xjuCY0hJOAy5r__jSxXzV9SLIdn7Ly-x2xLer-lRhHnlFhrBV6VPB
 AWSEntityColoring(IoTServo)
 !define IoTServo(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTServo, IoTServo)
 !define IoTServo(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTServo, IoTServo)
+!define IoTServo(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTServo*e_scale, IoTServo)
 !define IoTServoParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTServo, IoTServo)
 !define IoTServoParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTServo, IoTServo)
 
@@ -716,6 +767,7 @@ MWQwFP8__Ep-hO_9rVyIxRlru_lrw_ly3m
 AWSEntityColoring(IoTShadow)
 !define IoTShadow(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTShadow, IoTShadow)
 !define IoTShadow(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTShadow, IoTShadow)
+!define IoTShadow(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTShadow*e_scale, IoTShadow)
 !define IoTShadowParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTShadow, IoTShadow)
 !define IoTShadowParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTShadow, IoTShadow)
 
@@ -731,6 +783,7 @@ VX35ijzuu40cu1-T7oSsaZ_g4xU8nhJekpunqur0_jJpZm9dEDr6pg1luHy
 AWSEntityColoring(IoTSimulator)
 !define IoTSimulator(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTSimulator, IoTSimulator)
 !define IoTSimulator(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTSimulator, IoTSimulator)
+!define IoTSimulator(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTSimulator*e_scale, IoTSimulator)
 !define IoTSimulatorParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTSimulator, IoTSimulator)
 !define IoTSimulatorParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTSimulator, IoTSimulator)
 
@@ -744,6 +797,7 @@ Y_rrXB5dNL6z2jBt3cDjF4L1Q9LEtzlCD0dCd-IHzp-qNCHBCIFSPERjS-FGQktJ4-7bUXoBCFPnQkod
 AWSEntityColoring(IoTSiteWise)
 !define IoTSiteWise(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTSiteWise, IoTSiteWise)
 !define IoTSiteWise(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTSiteWise, IoTSiteWise)
+!define IoTSiteWise(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTSiteWise*e_scale, IoTSiteWise)
 !define IoTSiteWiseParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTSiteWise, IoTSiteWise)
 !define IoTSiteWiseParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTSiteWise, IoTSiteWise)
 
@@ -759,6 +813,7 @@ zJDVlrKsrk_NxHzUltzv_VxfzVktr-yVaMjIDpLmVUt--RNxzzT_F_nzVxt--_NpzGy
 AWSEntityColoring(IoTThermostat)
 !define IoTThermostat(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTThermostat, IoTThermostat)
 !define IoTThermostat(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTThermostat, IoTThermostat)
+!define IoTThermostat(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTThermostat*e_scale, IoTThermostat)
 !define IoTThermostatParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTThermostat, IoTThermostat)
 !define IoTThermostatParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTThermostat, IoTThermostat)
 
@@ -775,6 +830,7 @@ ecVrDgSFOBK9QM2p-e1Zs0byWrvLj3uJnEmwuwPVfU_3ZklN6yEEVeCP_Stzxt_V
 AWSEntityColoring(IoTThingsGraph)
 !define IoTThingsGraph(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTThingsGraph, IoTThingsGraph)
 !define IoTThingsGraph(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTThingsGraph, IoTThingsGraph)
+!define IoTThingsGraph(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTThingsGraph*e_scale, IoTThingsGraph)
 !define IoTThingsGraphParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTThingsGraph, IoTThingsGraph)
 !define IoTThingsGraphParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTThingsGraph, IoTThingsGraph)
 
@@ -788,6 +844,7 @@ T5PP6_PwtNzTbHbVowpgr_sttz7-EvbQP7Ntwhehm_HR_qZZf_O5
 AWSEntityColoring(IoTTopic)
 !define IoTTopic(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTTopic, IoTTopic)
 !define IoTTopic(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTTopic, IoTTopic)
+!define IoTTopic(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTTopic*e_scale, IoTTopic)
 !define IoTTopicParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTTopic, IoTTopic)
 !define IoTTopicParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTTopic, IoTTopic)
 
@@ -804,6 +861,7 @@ WcUQROzvHl2hzb-zRm_vhzy_Slyg3sM0V-t--IltxrztVlXt_lgAy-klfVy
 AWSEntityColoring(IoTTravel)
 !define IoTTravel(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTTravel, IoTTravel)
 !define IoTTravel(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTTravel, IoTTravel)
+!define IoTTravel(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTTravel*e_scale, IoTTravel)
 !define IoTTravelParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTTravel, IoTTravel)
 !define IoTTravelParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTTravel, IoTTravel)
 
@@ -818,6 +876,7 @@ _1qYrN7-vVMZRrzf48NoyVhvy_Nxv_k7h_tN_Fxr3-CR
 AWSEntityColoring(IoTUtility)
 !define IoTUtility(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTUtility, IoTUtility)
 !define IoTUtility(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTUtility, IoTUtility)
+!define IoTUtility(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTUtility*e_scale, IoTUtility)
 !define IoTUtilityParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTUtility, IoTUtility)
 !define IoTUtilityParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTUtility, IoTUtility)
 
@@ -832,6 +891,7 @@ tJz_SV_-jVF3-_prXVFh_-83
 AWSEntityColoring(IoTWindfarm)
 !define IoTWindfarm(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, IoTWindfarm, IoTWindfarm)
 !define IoTWindfarm(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTWindfarm, IoTWindfarm)
+!define IoTWindfarm(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, IoTWindfarm*e_scale, IoTWindfarm)
 !define IoTWindfarmParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, IoTWindfarm, IoTWindfarm)
 !define IoTWindfarmParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, IoTWindfarm, IoTWindfarm)
 

@@ -9,5 +9,6 @@ gSH3wFcUTthdFPvjQhpBcpNUw9C5o3vVGEwJ1SW-Nq3kamLeFb-0xi5YqpthxvDLtkpPBU2A7vpxoNvm
 AWSEntityColoring(CommandLineInterface)
 !define CommandLineInterface(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, CommandLineInterface, CommandLineInterface)
 !define CommandLineInterface(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, CommandLineInterface, CommandLineInterface)
+!define CommandLineInterface(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, CommandLineInterface*e_scale, CommandLineInterface)
 !define CommandLineInterfaceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, CommandLineInterface, CommandLineInterface)
 !define CommandLineInterfaceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, CommandLineInterface, CommandLineInterface)

@@ -13,6 +13,7 @@ z3NixGskwlcdu1lV-04
 AWSEntityColoring(ApplicationDiscoveryService)
 !define ApplicationDiscoveryService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, ApplicationDiscoveryService, ApplicationDiscoveryService)
 !define ApplicationDiscoveryService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, ApplicationDiscoveryService, ApplicationDiscoveryService)
+!define ApplicationDiscoveryService(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, ApplicationDiscoveryService*e_scale, ApplicationDiscoveryService)
 !define ApplicationDiscoveryServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, ApplicationDiscoveryService, ApplicationDiscoveryService)
 !define ApplicationDiscoveryServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, ApplicationDiscoveryService, ApplicationDiscoveryService)
 
@@ -27,6 +28,7 @@ FyqVZyVZ4m
 AWSEntityColoring(CloudEndureMigration)
 !define CloudEndureMigration(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, CloudEndureMigration, CloudEndureMigration)
 !define CloudEndureMigration(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, CloudEndureMigration, CloudEndureMigration)
+!define CloudEndureMigration(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, CloudEndureMigration*e_scale, CloudEndureMigration)
 !define CloudEndureMigrationParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, CloudEndureMigration, CloudEndureMigration)
 !define CloudEndureMigrationParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, CloudEndureMigration, CloudEndureMigration)
 
@@ -40,6 +42,7 @@ Sqi0BdX5ms3YKt9F3G0HaM_xTtvgRce5cl_2ZR_3xNPx1W
 AWSEntityColoring(DataSync)
 !define DataSync(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, DataSync, DataSync)
 !define DataSync(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DataSync, DataSync)
+!define DataSync(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DataSync*e_scale, DataSync)
 !define DataSyncParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, DataSync, DataSync)
 !define DataSyncParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, DataSync, DataSync)
 
@@ -54,6 +57,7 @@ lwxlpwlx-oS
 AWSEntityColoring(DataSyncAgent)
 !define DataSyncAgent(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, DataSyncAgent, DataSyncAgent)
 !define DataSyncAgent(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DataSyncAgent, DataSyncAgent)
+!define DataSyncAgent(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DataSyncAgent*e_scale, DataSyncAgent)
 !define DataSyncAgentParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, DataSyncAgent, DataSyncAgent)
 !define DataSyncAgentParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, DataSyncAgent, DataSyncAgent)
 
@@ -67,6 +71,7 @@ nqcMUSRUWvTvENff-h2wzsKn6jtvVfddot_IRx-j0G
 AWSEntityColoring(DatabaseMigrationService2)
 !define DatabaseMigrationService2(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, DatabaseMigrationService2, DatabaseMigrationService2)
 !define DatabaseMigrationService2(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DatabaseMigrationService2, DatabaseMigrationService2)
+!define DatabaseMigrationService2(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, DatabaseMigrationService2*e_scale, DatabaseMigrationService2)
 !define DatabaseMigrationService2Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, DatabaseMigrationService2, DatabaseMigrationService2)
 !define DatabaseMigrationService2Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, DatabaseMigrationService2, DatabaseMigrationService2)
 
@@ -82,6 +87,7 @@ V4a2hG79jtG5jFCzbLdyOVd37_u6
 AWSEntityColoring(MigrationHub)
 !define MigrationHub(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, MigrationHub, MigrationHub)
 !define MigrationHub(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, MigrationHub, MigrationHub)
+!define MigrationHub(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, MigrationHub*e_scale, MigrationHub)
 !define MigrationHubParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, MigrationHub, MigrationHub)
 !define MigrationHubParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, MigrationHub, MigrationHub)
 
@@ -95,6 +101,7 @@ zPrUpNJT9zCXxip_VlsoUwlPyiulzECyM5RYDbfQ2lz2Nm4
 AWSEntityColoring(MigrationandTransfer)
 !define MigrationandTransfer(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, MigrationandTransfer, MigrationandTransfer)
 !define MigrationandTransfer(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, MigrationandTransfer, MigrationandTransfer)
+!define MigrationandTransfer(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, MigrationandTransfer*e_scale, MigrationandTransfer)
 !define MigrationandTransferParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, MigrationandTransfer, MigrationandTransfer)
 !define MigrationandTransferParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, MigrationandTransfer, MigrationandTransfer)
 
@@ -107,6 +114,7 @@ xTK5ejim48JXMH3CzlxdBNh39Adj8t_XsByPudtOxLezrsD8nmLXZ6YmUcgyzsznGiRxEC6PlhV4cEa5
 AWSEntityColoring(ServerMigrationService)
 !define ServerMigrationService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, ServerMigrationService, ServerMigrationService)
 !define ServerMigrationService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, ServerMigrationService, ServerMigrationService)
+!define ServerMigrationService(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, ServerMigrationService*e_scale, ServerMigrationService)
 !define ServerMigrationServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, ServerMigrationService, ServerMigrationService)
 !define ServerMigrationServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, ServerMigrationService, ServerMigrationService)
 
@@ -119,6 +127,7 @@ Lsw_Nn_Spu_kzmVV7_w7QPeU0G
 AWSEntityColoring(Snowball)
 !define Snowball(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Snowball, Snowball)
 !define Snowball(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Snowball, Snowball)
+!define Snowball(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Snowball*e_scale, Snowball)
 !define SnowballParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Snowball, Snowball)
 !define SnowballParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Snowball, Snowball)
 
@@ -133,6 +142,7 @@ r_BZnsy
 AWSEntityColoring(SnowballEdge)
 !define SnowballEdge(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, SnowballEdge, SnowballEdge)
 !define SnowballEdge(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, SnowballEdge, SnowballEdge)
+!define SnowballEdge(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, SnowballEdge*e_scale, SnowballEdge)
 !define SnowballEdgeParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, SnowballEdge, SnowballEdge)
 !define SnowballEdgeParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, SnowballEdge, SnowballEdge)
 
@@ -147,6 +157,7 @@ _ML_VzhVt_Rtnp-V__pd1m
 AWSEntityColoring(Snowmobile)
 !define Snowmobile(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, Snowmobile, Snowmobile)
 !define Snowmobile(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Snowmobile, Snowmobile)
+!define Snowmobile(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, Snowmobile*e_scale, Snowmobile)
 !define SnowmobileParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, Snowmobile, Snowmobile)
 !define SnowmobileParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, Snowmobile, Snowmobile)
 
@@ -160,6 +171,7 @@ qnXkItRnipt-yOlfFm
 AWSEntityColoring(TransferFamily)
 !define TransferFamily(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #1C7B68, TransferFamily, TransferFamily)
 !define TransferFamily(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, TransferFamily, TransferFamily)
+!define TransferFamily(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #1C7B68, TransferFamily*e_scale, TransferFamily)
 !define TransferFamilyParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #1C7B68, TransferFamily, TransferFamily)
 !define TransferFamilyParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #1C7B68, TransferFamily, TransferFamily)
 

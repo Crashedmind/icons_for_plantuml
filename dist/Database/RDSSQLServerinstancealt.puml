@@ -10,5 +10,6 @@ fHt_sg-38G0060XYvqzTYFmw2n20cDz--tm-dy_dytdzW_v5_wH_mp_YN_tF-lS3
 AWSEntityColoring(RDSSQLServerinstancealt)
 !define RDSSQLServerinstancealt(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
 !define RDSSQLServerinstancealt(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
+!define RDSSQLServerinstancealt(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, RDSSQLServerinstancealt*e_scale, RDSSQLServerinstancealt)
 !define RDSSQLServerinstancealtParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, RDSSQLServerinstancealt, RDSSQLServerinstancealt)
 !define RDSSQLServerinstancealtParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, RDSSQLServerinstancealt, RDSSQLServerinstancealt)

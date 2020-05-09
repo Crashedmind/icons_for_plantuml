@@ -13,6 +13,7 @@ VFm1
 AWSEntityColoring(Connect)
 !define Connect(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, Connect, Connect)
 !define Connect(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Connect, Connect)
+!define Connect(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Connect*e_scale, Connect)
 !define ConnectParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, Connect, Connect)
 !define ConnectParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, Connect, Connect)
 
@@ -26,6 +27,7 @@ MdrLyXjw0G
 AWSEntityColoring(CustomerEngagement)
 !define CustomerEngagement(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, CustomerEngagement, CustomerEngagement)
 !define CustomerEngagement(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, CustomerEngagement, CustomerEngagement)
+!define CustomerEngagement(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, CustomerEngagement*e_scale, CustomerEngagement)
 !define CustomerEngagementParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, CustomerEngagement, CustomerEngagement)
 !define CustomerEngagementParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, CustomerEngagement, CustomerEngagement)
 
@@ -41,6 +43,7 @@ Kklv_k13ZbzFx2y2LClX-Vwaa_oM_OtyiVjZlh_-dl9V_ijd
 AWSEntityColoring(Pinpoint)
 !define Pinpoint(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, Pinpoint, Pinpoint)
 !define Pinpoint(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Pinpoint, Pinpoint)
+!define Pinpoint(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, Pinpoint*e_scale, Pinpoint)
 !define PinpointParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, Pinpoint, Pinpoint)
 !define PinpointParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, Pinpoint, Pinpoint)
 
@@ -55,6 +58,7 @@ CbziUkcdac-vLNado7orwsKrcSy_ruVFpDU7dcmnyzbSOJ7psLnfySaNvWgBBxumLrYyUKdcTYpAue7u
 AWSEntityColoring(SESEmail)
 !define SESEmail(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, SESEmail, SESEmail)
 !define SESEmail(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, SESEmail, SESEmail)
+!define SESEmail(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, SESEmail*e_scale, SESEmail)
 !define SESEmailParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, SESEmail, SESEmail)
 !define SESEmailParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, SESEmail, SESEmail)
 
@@ -70,6 +74,7 @@ eHPP5XxxrrApVvtw9tA_9H97sVbj_mpZtlx_jVxR_s7ZJGNcxGwfytN-sHEy8TekUzVi_fN3ZyNye0A0
 AWSEntityColoring(SimpleEmailServiceSES)
 !define SimpleEmailServiceSES(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3B48CC, SimpleEmailServiceSES, SimpleEmailServiceSES)
 !define SimpleEmailServiceSES(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, SimpleEmailServiceSES, SimpleEmailServiceSES)
+!define SimpleEmailServiceSES(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3B48CC, SimpleEmailServiceSES*e_scale, SimpleEmailServiceSES)
 !define SimpleEmailServiceSESParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3B48CC, SimpleEmailServiceSES, SimpleEmailServiceSES)
 !define SimpleEmailServiceSESParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3B48CC, SimpleEmailServiceSES, SimpleEmailServiceSES)
 

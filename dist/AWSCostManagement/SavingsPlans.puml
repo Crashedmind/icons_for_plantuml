@@ -13,5 +13,6 @@ mygWzNBzEVwCrla4ptE_rkZEkN-w_6RVMSpHtByt--Rw61dpew1X-4NwfWCgUSnlbtG_taZEvZQmZsu6
 AWSEntityColoring(SavingsPlans)
 !define SavingsPlans(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #3F8624, SavingsPlans, SavingsPlans)
 !define SavingsPlans(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, SavingsPlans, SavingsPlans)
+!define SavingsPlans(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #3F8624, SavingsPlans*e_scale, SavingsPlans)
 !define SavingsPlansParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #3F8624, SavingsPlans, SavingsPlans)
 !define SavingsPlansParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #3F8624, SavingsPlans, SavingsPlans)
