@@ -17,10 +17,10 @@
 
 left to right direction
 
-Users(sources, "Events", "millions of users", "", 0.8)
+Users(sources, "Events", "millions of users", "description", 0.8)
 APIGateway(votingAPI, "Voting API", "user votes", "", 2)
 Cognito(userAuth, "User Authentication", "jwt to submit votes", "", 1.2)
-Lambda(generateToken, "User Credentials", "return jwt", "", .6)
+Lambda(generateToken, "User Credentials", "return jwt", "description", .6)
 Lambda(recordVote, "Record Vote", "enter or update vote per user")
 DynamoDB(voteDb, "Vote Database", "one entry per user", "", 2 )
 
