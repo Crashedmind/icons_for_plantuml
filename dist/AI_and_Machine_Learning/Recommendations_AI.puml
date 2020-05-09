@@ -1,0 +1,16 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Recommendations_AI [64x57/16z] {
+fTO7igCm381XTPdxNtWPq50KuUM9VyehoPSYKmmfiJ791AQX-PZcXZEVU97RX7FYLSxFFl4wV-JwpYlKOS6h7Bl32s_JuNL76BmxGlcBbydmUYFKmxVMa8A_
+pIaDxy6Rw9dewUtTyFW-f68Dw-7Ldj88o-7fcLqyPg_vPIE48raEZwu0L8_G_Ew9jt3rSl1bOF9M7_W8jcpnxibspX0-Zt3bsO-ry3WMevKJXC-dWSmzoFhx
+nd-zfBKhFKZmy6aDxRyUPEMrL-2HolEBjG-VOokycAuPXOzARwFmHzdZU17JaIvArsIy-G3BKVmUZI9d7obJiyY7srdb1SnVVdygk1V_Ha3QsdtyWQLd0D3v
+yIlx7rfvWpNiUumJgEaLzfhU8M9lUKvtxlhyaUttmXiSuTsBRT7coRRanrDrztj__EZJpP_nI1V58wxMBetmVTBS_4GEtsxW19ys40RVDZ3uRGCbKEMDuRNM
+a5kx_poyzWZfsmPUuJ5qR-xU8t9lVlg8pEybRS6VGvxqg_y1
+}
+
+AWSEntityColoring(Recommendations_AI)
+!define Recommendations_AI(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Recommendations_AI, Recommendations_AI)
+!define Recommendations_AI(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Recommendations_AI, Recommendations_AI)
+!define Recommendations_AI(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Recommendations_AI*e_scale, Recommendations_AI)
+!define Recommendations_AIParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Recommendations_AI, Recommendations_AI)
+!define Recommendations_AIParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Recommendations_AI, Recommendations_AI)

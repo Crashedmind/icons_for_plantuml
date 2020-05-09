@@ -1,0 +1,16 @@
+' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+sprite $Cloud_Run [64x64/16z] {
+tLTNsXin25n9rFjVE9zit3r89FdhF2zj1W5x_39qOXO0PkeBSz85A3LdjGMKi-JLbj2a1Dcn5sW-r3QW0zchRK4XzxO5e45JsuIsadPOGwnTNKEfs4j1EwWX
+9g-k8LVjAGdF7DzefY4cJuADSV0UXKEVVJUPVZ9LjUF6d-ngvCWm0Tpu77OZKrO9QgVJxEIdqN4qHXH2xMPjPp-gFL90pw3RAtXgSl93RZ05RQ3npmMuEK_l
+Bkrz2Yg8dbb0YmBC3AMW0mqjkXR0RZW5HKDBfgnkJaU_XNfD0RTuYm8MhrmDWA8jszCx5yjGjvTQ_gyABFXx3Ewl0egc-Zq4zpSDr1VzWvaBzvprBmn-Uq1D
+a_UJoXOFcE3xjOVWS82W-U5JXMH-WAwC-UNcCR_StcB0tJTkpTTuOmLrDBznSBCErvUS2VDiVvWa-olwbDGDee7RPnDKkhqmUL337ADwls3o0jqAwFzqlndN
+xqUiNLr3-e3x6MkOQrVNKEh_BrYxEeLK_7y3vWYDc0M2-l7By0S
+}
+
+AWSEntityColoring(Cloud_Run)
+!define Cloud_Run(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, Cloud_Run, Cloud_Run)
+!define Cloud_Run(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Run, Cloud_Run)
+!define Cloud_Run(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, #232F3E, Cloud_Run*e_scale, Cloud_Run)
+!define Cloud_RunParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #232F3E, Cloud_Run, Cloud_Run)
+!define Cloud_RunParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #232F3E, Cloud_Run, Cloud_Run)

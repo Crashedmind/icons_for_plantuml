@@ -30,7 +30,7 @@ class Icon:
             # Source name and category to uniquely identify same file names
             # in different categories to apply color or other values
             self.source_name = (
-                str(posix_filename).split("/")[-1].split("_light-bg@")[0]
+                str(posix_filename).split("/")[-1].split(".png")[0]
             )
             self.source_category = str(posix_filename).split("/")[3]
             self._set_values(self.source_name, self.source_category)
@@ -186,7 +186,7 @@ class Icon:
            then remove leading AWS or Amazon to reduce length. Also convert non-alphanumeric characters to underscores"""
 
         if name:
-            new_name = name.split("/")[-1].split("_light-bg@")[0]
+            new_name = name.split("/")[-1].split(".png")[0]
             if new_name.startswith(("AWS-", "Amazon-")):
                 new_name = new_name.split("-", 1)[1]
             # Replace non-alphanumeric with underscores (1:1 mapping)

@@ -160,8 +160,7 @@ def build_file_list():
     Returns POSIX path of those files to be processed (ending in _light-bg@4x.png or _light-bg@5x.png)
     """
     p = Path("../source/official")
-    return sorted(p.glob("**/*_light-bg@[45]x.png"))
-
+    return sorted(p.glob("**/*.png"))
 
 def create_config_template():
     """Create config_template.yml file from source icons"""
@@ -176,7 +175,7 @@ def create_config_template():
         # Get elements needed for YAML file
         category = i.split("/")[3]
         target = Icon(i.split("/")[-1], {})._make_name(i.split("/")[-1])
-        source_name = i.split("/")[-1].split("_light-bg@")[0]
+        source_name = i.split("/")[-1].split(".png")[0]
         file_source_dir = "/".join(i.split("/", 3)[-1].split("/")[:-1])
 
         # Process each file and populate entries for creating YAML file
