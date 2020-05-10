@@ -51,10 +51,7 @@ Category | PUML Macro (Name) | Image (PNG) | PUML Url
   ---    |  ---  | :---:  | ---
 """
 
-PUML_COPYRIGHT = """'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
-
-"""
+PUML_COPYRIGHT = ""
 
 parser = argparse.ArgumentParser(description="Generates AWS icons for PlantUML")
 parser.add_argument(
