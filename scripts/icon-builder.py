@@ -15,43 +15,11 @@ from multiprocessing import Pool
 from pathlib import Path
 from subprocess import PIPE
 
+import config as cfg
 import yaml
 
 from awsicons.icon import Icon
 
-TEMPLATE_DEFAULT = """
-Defaults:
-  Colors:
-    SquidInk: "#232F3E"
-  # Defaults for all categories
-  Category:
-    Color: SquidInk
-  # Maximum in either height or width in pixels
-  TargetMaxSize: 64
-"""
-
-MARKDOWN_PREFIX_TEMPLATE = """
-<!--
-Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
--->
-# AWS Symbols
-
-The table below lists all AWS symbols in the `dist/` directory, sorted by category.
-
-If you want to reference and use these files without Internet connectivity, you can also download the whole [*PlantUML Icons for AWS* dist](dist/) directory and reference it locally with PlantUML.
-
-## PNG images
-
-For each symbol, there is a resized icon in PNG format generated from the source file. Where the original icons had transparency set, this has been kept in the generated icons. You can also use the images outside of PlantUML, e.g. for documents or presentations, but the official [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) are available in all popular formats.
-
-## All PNG generated AWS symbols
-
-Category | PUML Macro (Name) | Image (PNG) | PUML Url
-  ---    |  ---  | :---:  | ---
-"""
-
-PUML_COPYRIGHT = ""
 
 parser = argparse.ArgumentParser(description="Generates AWS icons for PlantUML")
 parser.add_argument(
@@ -92,10 +60,10 @@ def verify_environment():
         sys.exit(1)
     # Verify other files and folders exist
     dir = Path("../source")
-    q = dir / "AWSCommon.puml"
+    q = dir / "Common.puml"
     print (q )
     if not q.exists():
-        print("File AWScommon.puml not found is source/ directory")
+        print("File Common.puml not found is source/ directory")
         sys.exit(1)
     q = dir / "official"
     if not q.exists() or len([x for x in q.iterdir() if q.is_dir()]) == 0:
@@ -132,9 +100,12 @@ def clean_dist():
 
 
 def copy_puml():
-    """Copy source/*.puml files to dist"""
+    """Copy source/*.puml files to dist with PREFIX"""
     for file in Path(".").glob("../source/*.puml"):
-        shutil.copy(file, Path("../dist"))
+        filename = os.path.basename(file)
+        dstfile = f"../dist/{cfg.PREFIX}{filename}"
+        print ("Copying file", file, "to", dstfile)
+        shutil.copy(file, dstfile)
 
 
 def build_file_list():
@@ -218,7 +189,7 @@ def create_config_template():
     # Append last category
     entries.append(category_dict)
 
-    yaml_content = yaml.safe_load(TEMPLATE_DEFAULT)
+    yaml_content = yaml.safe_load(cfg.TEMPLATE_DEFAULT)
     yaml_content["Categories"] = entries
 
     with open("config-template.yml", "w") as f:
@@ -238,7 +209,7 @@ def create_category_all_file(path):
     for line in data.splitlines():
         if not line.startswith("'"):
             content += line + "\n"
-    content = PUML_COPYRIGHT + content
+    content = cfg.PUML_COPYRIGHT + content
 
     with open(f"{path}/all.puml", "w") as all_file:
         all_file.write(content)
@@ -281,6 +252,7 @@ def main():
     source_files = build_file_list()
     icons = [Icon(filename, config) for filename in source_files]
 
+    
     # Create category directories
     categories = sorted(set([icon.category for icon in icons]))
     for i in categories:
@@ -299,7 +271,7 @@ def main():
 
     # Create markdown sheet and place in dist
     sorted_icons = sorted(icons, key=lambda x: (x.category, x.target))
-    markdown = MARKDOWN_PREFIX_TEMPLATE
+    markdown = cfg.MARKDOWN_PREFIX_TEMPLATE
     for i in categories:
         category = i
         markdown += f"**{category}** | | | **{category}/all.puml**\n"
@@ -311,7 +283,8 @@ def main():
                     f"{cat} | {tgt}  | ![{tgt}](dist/{cat}/{tgt}.png?raw=true) |"
                     f"{cat}/{tgt}.puml\n"
                 )
-    with open(Path("../AWSSymbols.md"), "w") as f:
+
+    with open(Path(f"../{cfg.PREFIX}Symbols.md"), "w") as f:
         f.write(markdown)
 
 

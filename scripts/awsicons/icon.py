@@ -7,14 +7,13 @@ Modules to support creation of PlantUML icon files
 import sys
 import re
 import subprocess
+import config as cfg
 from subprocess import PIPE
 
 
 from PIL import Image
 
-PUML_LICENSE_HEADER = """' Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-' SPDX-License-Identifier: CC-BY-ND-2.0 (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
-"""
+
 
 
 class Icon:
@@ -47,7 +46,7 @@ class Icon:
 
     def generate_puml(self, path):
         """Generate puml file for service"""
-        puml_content = PUML_LICENSE_HEADER
+        puml_content = cfg.PUML_LICENSE_HEADER
         # Start plantuml.jar and encode sprite from main PNG
         try:
             target = self.target
@@ -66,12 +65,12 @@ class Icon:
                 stderr=PIPE,
             )
             puml_content += result.stdout.decode("UTF-8")
-            puml_content += f"AWSEntityColoring({target})\n"
-            puml_content += f"!define {target}(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, {color}, {target}, {target})\n"
-            puml_content += f"!define {target}(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, {color}, {target}, {target})\n"
-            puml_content += f"!define {target}(e_alias, e_label, e_techn, e_descr, e_scale) AWSEntity(e_alias, e_label, e_techn, e_descr, {color}, {target}*e_scale, {target})\n"
-            puml_content += f"!define {target}Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, {color}, {target}, {target})\n"
-            puml_content += f"!define {target}Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, {color}, {target}, {target})\n"
+            puml_content += f"{cfg.PREFIX}EntityColoring({target})\n"
+            puml_content += f"!define {target}(e_alias, e_label, e_techn) {cfg.PREFIX}Entity(e_alias, e_label, e_techn, {color}, {target}, {target})\n"
+            puml_content += f"!define {target}(e_alias, e_label, e_techn, e_descr) {cfg.PREFIX}Entity(e_alias, e_label, e_techn, e_descr, {color}, {target}, {target})\n"
+            puml_content += f"!define {target}(e_alias, e_label, e_techn, e_descr, e_scale) {cfg.PREFIX}Entity(e_alias, e_label, e_techn, e_descr, {color}, {target}*e_scale, {target})\n"
+            puml_content += f"!define {target}Participant(p_alias, p_label, p_techn) {cfg.PREFIX}Participant(p_alias, p_label, p_techn, {color}, {target}, {target})\n"
+            puml_content += f"!define {target}Participant(p_alias, p_label, p_techn, p_descr) {cfg.PREFIX}Participant(p_alias, p_label, p_techn, p_descr, {color}, {target}, {target})\n"
 
             with open(f"{path}/{target}.puml", "w") as f:
                 f.write(puml_content)
