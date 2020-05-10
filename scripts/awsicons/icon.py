@@ -1,5 +1,5 @@
-# Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-# SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+#!/usr/bin/env python3
+
 """
 Modules to support creation of PlantUML icon files
 """
@@ -130,64 +130,12 @@ class Icon:
             sys.exit(1)
 
 
-
-    # def _set_values(self, source_name, source_category):
-    #     """Set values if entry found, otherwise set uncategorized and defaults"""
-    #     for i in self.config["Categories"]:
-    #         for j in i["Services"]:
-    #             if j["Source"] == source_name:
-    #                 try:
-    #                     self.category = i["Name"]
-    #                     self.target = j["Target"]
-
-    #                     # Set color from service, category, default then black
-    #                     if "Color" in j:
-    #                         self.color = self._color_name(j["Color"])
-    #                     elif "Color" in i:
-    #                         self.color = self._color_name(i["Color"])
-    #                     elif "Color" in self.config["Defaults"]["Category"]:
-    #                         self.color = self._color_name(
-    #                             self.config["Defaults"]["Category"]["Color"]
-    #                         )
-    #                     else:
-    #                         print(
-    #                             f"No color definition found for {source_name}, using black"
-    #                         )
-    #                         self.color = "#000000"
-    #                     return
-    #                 except KeyError as e:
-    #                     print(f"Error: {e}")
-    #                     print(
-    #                         "config.yml requires minimal config section, please see documentation"
-    #                     )
-    #                     sys.exit(1)
-    #                 except TypeError as e:
-    #                     print(f"Error: {e}")
-    #                     print(
-    #                         "config.yml requires Defaults->Color definition, please see documentation"
-    #                     )
-    #                     sys.exit(1)
-
-    #     # Entry not found, place into uncategorized
-    #     try:
-    #         self.category = "Uncategorized"
-    #         self.target = self._make_name(self.source_name)
-    #         self.color = self.config["Defaults"]["Category"]["Color"]
-    #     except KeyError as e:
-    #         print(f"Error: {e}")
-    #         print(
-    #             "config.yml requires minimal config section, please see documentation"
-    #         )
-    #         sys.exit(1)
-
     def _make_name(self, name=None):
-        """Create PUML friendly name short name without directory or _light-bg@[45]x.png,
-           then remove leading AWS or Amazon to reduce length. Also convert non-alphanumeric characters to underscores"""
+        """Create PUML friendly name short name without directory.C
+        Convert non-alphanumeric characters to underscores"""
 
         if name:
             new_name = name.split("/")[-1].split(".png")[0]
-            if new_name.startswith(("AWS-", "Amazon-")):
-                new_name = new_name.split("-", 1)[1]
             # Replace non-alphanumeric with underscores (1:1 mapping)
             new_name = re.sub(r'\W+', '_', new_name)
         return new_name

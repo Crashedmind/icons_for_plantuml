@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
-# Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-# SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
 
 
-"""icon-builder.py: Build AWS Icons for PlantUML"""
+"""icon-builder.py: Build Icons for PlantUML"""
 
 import os
 import argparse
@@ -21,7 +19,7 @@ import yaml
 from awsicons.icon import Icon
 
 
-parser = argparse.ArgumentParser(description="Generates AWS icons for PlantUML")
+parser = argparse.ArgumentParser(description=f"Generates {cfg.PREFIX} icons for PlantUML")
 parser.add_argument(
     "--check-env",
     action="store_true",
@@ -63,13 +61,13 @@ def verify_environment():
     q = dir / "Common.puml"
     print (q )
     if not q.exists():
-        print("File Common.puml not found is source/ directory")
+        print("File Common.puml not found in source/ directory")
         sys.exit(1)
     q = dir / "official"
     if not q.exists() or len([x for x in q.iterdir() if q.is_dir()]) == 0:
         print(
-            "source/official must contain folders of AWS  icons to process. Please see README file for details."
-        )
+            f"source/official must contain folders of {cfg.PREFIX} icons to process. Please see README file for details."
+            )
         sys.exit(1)
     # Start plantuml.jar and verify java
     try:
@@ -109,7 +107,7 @@ def copy_puml():
 
 
 def build_file_list():
-    """Enumerate AWS Icons directory.
+    """Enumerate Icons directory.
 
     Format for files since current Release 6.0-2020.01.21 PNG icon set:
        source/official/CATEGORY/PRODUCT_or_RESOURCE_light-bg@[45]x.png
@@ -122,7 +120,7 @@ def build_file_list():
 
     CATEGORY = grouping of similar services or general icons
     SUBDIR = [optional], used in Compute for EC2 instance types
-    PRODUCT = Specific AWS named service (.e.g, Amazon Simple Queue Service)
+    PRODUCT = Specific named service (.e.g, Amazon Simple Queue Service)
     RESOURCE = Resource of product (e.g., "Queue" for Amazon SQS)
 
     Returns POSIX path of those files to be processed (ending in _light-bg@4x.png or _light-bg@5x.png)
